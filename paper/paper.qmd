@@ -4,7 +4,7 @@ subtitle: "My subtitle if needed"
 author: 
   - First author
   - Another author
-thanks: "Code and data are available at: [https://github.com/RohanAlexander/starter_folder](https://github.com/RohanAlexander/starter_folder)."
+thanks: "Code and data are available at: https://github.com/aj3616/Canadian_Groceries_SQL/tree/main"
 date: today
 date-format: long
 abstract: "First sentence. Second sentence. Third sentence. Fourth sentence."
@@ -19,7 +19,11 @@ bibliography: references.bib
 #| message: false
 
 library(tidyverse)
+<<<<<<< HEAD
 library(ggplot2)
+=======
+library(gt)
+>>>>>>> 5f7f29bb8fd13a9bd4ad44fd4b6062f17b6e1bb4
 ```
 
 
@@ -44,7 +48,7 @@ Telegraphing paragraph: The remainder of this paper is structured as follows. @s
 
 ## Overview
 
-We use the statistical programming language R [@citeR].... Our data [@shelter].... Following @tellingstories, we consider...
+We use the statistical programming language R [@citeR].... Our data [@filipp2024hammer].... Following @tellingstories, we consider...
 
 Overview text
 
@@ -147,6 +151,57 @@ ggplot(brand_price, aes(x = vendor, y = overall_avg_price, fill = vendor)) +
 
 Our results are summarized in @tbl-modelresults.
 
+<<<<<<< HEAD
+=======
+```{r}
+#| echo: false
+#| eval: true
+#| warning: false
+#| message: false
+
+library(rstanarm)
+
+first_model <-
+  readRDS(file = here::here("models/first_model.rds"))
+```
+
+```{r}
+#| echo: false
+#| eval: true
+#| label: tbl-vendor_summary
+#| tbl-cap: "Vendor Summary-Overall Average Price and Unit Price by Vendor"
+#| warning: false
+
+
+
+# Load the data
+vendor_summary <- read_csv("data/02-analysis_data/temp.vendor_summary.csv")
+
+# Create a formatted table
+vendor_summary_table <- vendor_summary %>%
+  gt() %>%
+  cols_label(
+    vendor = "Vendor",
+    overall_avg_price = "Average Price ($)",
+    overall_avg_unit_price = "Average Unit Price ($)"
+  ) %>%
+  fmt_number(
+    columns = c(overall_avg_price, overall_avg_unit_price),
+    decimals = 2
+  ) %>%
+  tab_style(
+    style = cell_text(weight = "bold"),
+    locations = cells_column_labels(columns = everything())
+  ) %>%
+  tab_source_note(
+    source_note = "Data source: data/02-analysis_data/temp.vendor_summary.csv"
+  )
+
+# Print the table
+vendor_summary_table
+
+```
+>>>>>>> 5f7f29bb8fd13a9bd4ad44fd4b6062f17b6e1bb4
 
 
 
