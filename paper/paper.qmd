@@ -1,13 +1,16 @@
 ---
-title: "My title"
-subtitle: "My subtitle if needed"
+title: "Canadian Bread Price Variations Across Vendors"
+subtitle: "An Observational Study on Pricing Trends and Data Limitations"
 author: 
-  - First author
-  - Another author
+  - Amy Jin
+  - Diana Shen
+  - Maggie Zhang 
+  - Claire Chang
+  
 thanks: "Code and data are available at: https://github.com/aj3616/Canadian_Groceries_SQL/tree/main"
 date: today
 date-format: long
-abstract: "First sentence. Second sentence. Third sentence. Fourth sentence."
+abstract: "This study analyzes the average price of bread across various vendors to understand pricing trends and highlight differences in consumer costs. By examining observational data, we found notable variations in bread prices between vendors, with some consistently offering higher or lower prices. These findings shed light on how vendor practices, product offerings, and possible external factors can impact bread affordability. Understanding these price variations is important for consumers seeking cost-effective options and for stakeholders aiming to address pricing disparities in everyday essentials."
 format: pdf
 number-sections: true
 bibliography: references.bib
@@ -25,18 +28,15 @@ library(gt)
 
 # Introduction
 
-Overview paragraph
+Bread is a staple food item across households, and understanding price variations among different vendors can provide insights into the accessibility and affordability of basic food products. This study aims to examine the average price of bread across various vendors in Canada to identify patterns and potential disparities in pricing. Using data on both overall average prices and per-unit prices (where available), we assess how bread pricing differs between vendors and highlight the factors that may contribute to these differences.
 
-Estimand paragraph
+The primary estimand in this analysis is the average price of bread offered by each vendor. Additionally, for vendors that provide per-unit pricing, the analysis includes the average unit price, which helps standardize cost comparisons across varying product sizes and quantities. The focus on vendor-based pricing provides a granular view of how pricing might vary by store brand and supply chain factors.
 
-Results paragraph
+Our results indicate a noticeable range in average bread prices across vendors. For instance, Walmart exhibits the highest average bread price among the surveyed vendors, while Voila offers the lowest average price. However, the availability of unit prices is limited, with only Walmart providing sufficient data to calculate an average per-unit price. This lack of unit price data highlights a gap in the dataset, suggesting inconsistencies in reporting or data availability across different vendors.
 
-Why it matters paragraph
+Understanding these variations in bread prices matters for consumers and policymakers alike. For consumers, awareness of price disparities between vendors can guide more cost-effective shopping decisions. For policymakers, identifying patterns in food pricing could support initiatives aimed at improving food affordability and accessibility. By shedding light on vendor-based pricing differences, this study contributes to broader discussions on food cost dynamics and potential areas for consumer advocacy.
 
-Telegraphing paragraph: The remainder of this paper is structured as follows. @sec-data....
-
-
-
+The remainder of this paper is structured as follows. @sec-data discusses the data used for this analysis, including key variables and sources, with particular attention to the quality metrics that affect polling accuracy. @sec-models outlines our modeling approach for each candidate, incorporating lessons learned from recent electoral cycles. Our predictions are under section of each model. Finally, our @sec-results discusses the implications of our findings and suggests directions for future research by addressing three critical aspects: correlation vs. causation, missing data, and sources of bias.
 
 
 
@@ -57,45 +57,8 @@ Some paragraphs about how we go from a phenomena in the world to an entry in the
 Add graphs, tables and text. Use sub-sub-headings for each outcome variable or update the subheading to be singular.
 
 
-
-Some of our data is of penguins (@fig-bills), from @palmerpenguins.
-
-```{r}
-#| label: fig-bills
-#| fig-cap: Bills of penguins
-#| echo: false
-
-ggplot(penguins, aes(x = island, fill = species)) +
-  geom_bar(alpha = 0.8) +
-  scale_fill_manual(values = c("darkorange","purple","cyan4"),
-                    guide = "none") +
-  theme_minimal() +
-  facet_wrap(~species, ncol = 1) +
-  coord_flip()
-```
-
 Talk more about it.
 
-And also planes (@fig-planes). (You can change the height and width, but don't worry about doing that until you have finished every other aspect of the paper - Quarto will try to make it look nice and the defaults usually work well once you have enough text.)
-
-```{r}
-#| label: fig-planes
-#| fig-cap: Relationship between wing length and width
-#| echo: false
-#| warning: false
-#| message: false
-
-analysis_data <- read_csv(here::here("data/02-analysis_data/analysis_data.csv"))
-
-analysis_data |> 
-  ggplot(aes(x = width, y = length)) +
-  geom_point(alpha = 0.8) +
-  theme_minimal() +
-  labs(x = "Wing width (mm)",
-       y = "Wing length (mm)")
-```
-
-Talk way more about it. 
 
 ## Predictor variables
 
@@ -104,13 +67,7 @@ Add graphs, tables and text.
 Use sub-sub-headings for each outcome variable and feel free to combine a few into one if they go together naturally.
 
 
-
-
-
-
-
-
-# Model
+# Model {#sec-models}
 
 The goal of our modelling strategy is twofold. Firstly,...
 
@@ -139,60 +96,7 @@ We expect a positive relationship between the size of the wings and time spent a
 We can use maths by including latex between dollar signs, for instance $\theta$.
 
 
-# Results
-
-Our results are summarized in @tbl-modelresults.
-
-```{r}
-#| echo: false
-#| eval: true
-#| warning: false
-#| message: false
-
-library(rstanarm)
-
-first_model <-
-  readRDS(file = here::here("models/first_model.rds"))
-```
-
-```{r}
-#| echo: false
-#| eval: true
-#| label: tbl-vendor_summary
-#| tbl-cap: "Vendor Summary-Overall Average Price and Unit Price by Vendor"
-#| warning: false
-
-
-
-# Load the data
-vendor_summary <- read_csv("data/02-analysis_data/temp.vendor_summary.csv")
-
-# Create a formatted table
-vendor_summary_table <- vendor_summary %>%
-  gt() %>%
-  cols_label(
-    vendor = "Vendor",
-    overall_avg_price = "Average Price ($)",
-    overall_avg_unit_price = "Average Unit Price ($)"
-  ) %>%
-  fmt_number(
-    columns = c(overall_avg_price, overall_avg_unit_price),
-    decimals = 2
-  ) %>%
-  tab_style(
-    style = cell_text(weight = "bold"),
-    locations = cells_column_labels(columns = everything())
-  ) %>%
-  tab_source_note(
-    source_note = "Data source: data/02-analysis_data/temp.vendor_summary.csv"
-  )
-
-# Print the table
-vendor_summary_table
-
-```
-
-
+# Results {#sec-results}
 
 
 # Discussion
@@ -224,51 +128,7 @@ Weaknesses and next steps should also be included.
 
 ## Posterior predictive check
 
-In @fig-ppcheckandposteriorvsprior-1 we implement a posterior predictive check. This shows...
-
-In @fig-ppcheckandposteriorvsprior-2 we compare the posterior with the prior. This shows... 
-
-```{r}
-#| eval: true
-#| echo: false
-#| message: false
-#| warning: false
-#| label: fig-ppcheckandposteriorvsprior
-#| layout-ncol: 2
-#| fig-cap: "Examining how the model fits, and is affected by, the data"
-#| fig-subcap: ["Posterior prediction check", "Comparing the posterior with the prior"]
-
-pp_check(first_model) +
-  theme_classic() +
-  theme(legend.position = "bottom")
-
-posterior_vs_prior(first_model) +
-  theme_minimal() +
-  scale_color_brewer(palette = "Set1") +
-  theme(legend.position = "bottom") +
-  coord_flip()
-```
-
 ## Diagnostics
-
-@fig-stanareyouokay-1 is a trace plot. It shows... This suggests...
-
-@fig-stanareyouokay-2 is a Rhat plot. It shows... This suggests...
-
-```{r}
-#| echo: false
-#| eval: true
-#| message: false
-#| warning: false
-#| label: fig-stanareyouokay
-#| fig-cap: "Checking the convergence of the MCMC algorithm"
-#| fig-subcap: ["Trace plot", "Rhat plot"]
-#| layout-ncol: 2
-
-plot(first_model, "trace")
-
-plot(first_model, "rhat")
-```
 
 
 
