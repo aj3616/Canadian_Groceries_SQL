@@ -1,0 +1,366 @@
+brand,vendor1,vendor2,price_difference,unit_price_difference
+,Galleria,Loblaws,0.53933535057424,
+,Galleria,Metro,2.27738079286363,
+,Galleria,NoFrills,1.4480964337605,
+,Galleria,TandT,1.99711516432503,
+,Galleria,Voila,0.857813779338983,
+,Galleria,Walmart,0.226421090646442,
+,Loblaws,Metro,1.73804544228939,0.0
+,Loblaws,NoFrills,0.908761083186257,0.0
+,Loblaws,TandT,1.45777981375079,
+,Loblaws,Voila,1.39714912991322,0.0
+,Loblaws,Walmart,0.312914259927799,0.0
+4C,Loblaws,NoFrills,1.30742183530368,0.0
+Aurora,Loblaws,Metro,0.204065567259868,0.0
+Aurora,Loblaws,NoFrills,0.413202770341055,0.0
+Betty Crocker,Loblaws,Metro,0.180849673202614,0.0
+Betty Crocker,Loblaws,NoFrills,0.409150326797386,0.0
+Betty Crocker,Loblaws,SaveOnFoods,0.117483660130719,0.0
+Betty Crocker,Loblaws,Walmart,0.429150326797386,0.0
+Beyond Meat,Loblaws,Metro,0.582520031015766,0.0
+Beyond Meat,Loblaws,NoFrills,0.87374048328368,0.0
+Beyond Meat,Loblaws,SaveOnFoods,0.682531446540879,0.0
+Beyond Meat,Loblaws,Walmart,0.957107856941707,1.34328358208955
+BlueWater Seafoods,Loblaws,Metro,4.10066373007595,0.0
+Carbonaut,Loblaws,Metro,0.103597881202463,0.0
+Carbonaut,Loblaws,NoFrills,0.0411288180610896,0.0
+Carbonaut,Loblaws,SaveOnFoods,0.266590305444888,0.0
+Carbonaut,Loblaws,Walmart,0.0341884824339012,0.672489082969432
+Cedar,Loblaws,NoFrills,0.464487804878049,0.0
+Club House,Loblaws,Metro,1.56666666666667,0.0
+Club House,Loblaws,SaveOnFoods,0.711111111111111,0.0
+Country Harvest,Loblaws,Metro,0.233113456200682,0.0
+Country Harvest,Loblaws,NoFrills,0.85706467992569,0.0
+Country Harvest,Loblaws,SaveOnFoods,0.275484245980009,0.0
+Country Harvest,Loblaws,Walmart,0.400148470069374,68.3333333333333
+Create A Treat,Loblaws,Metro,1.0,0.0
+Create A Treat,Loblaws,NoFrills,4.32333333333333,0.0
+Create A Treat,Loblaws,SaveOnFoods,2.36842105263158,0.0
+Crispy,Loblaws,Metro,0.362590183323477,0.0
+Crispy,Loblaws,NoFrills,0.242537686101328,0.0
+Crispy,Loblaws,Walmart,0.961011235955056,0.0
+D'Italiano,Loblaws,Metro,0.720688827933872,0.0
+D'Italiano,Loblaws,NoFrills,0.329032426421529,0.0
+D'Italiano,Loblaws,SaveOnFoods,0.447795390070922,0.0
+Daiya,Loblaws,Metro,0.117444788841535,0.0
+Daiya,Loblaws,NoFrills,1.32629319482722,0.0
+Daiya,Loblaws,SaveOnFoods,0.0861399812734085,0.0
+Daiya,Loblaws,Walmart,1.30097127302212,0.77319587628866
+Dare,Loblaws,Metro,0.778614258675079,0.0
+Dare,Loblaws,NoFrills,1.09070662379421,0.0
+Dare,Loblaws,SaveOnFoods,0.801744761904763,0.0
+Dempster,Loblaws,NoFrills,0.671207681033909,0.0
+Dimpflmeier,Loblaws,Metro,0.308145380093833,0.0
+Dimpflmeier,Loblaws,NoFrills,0.204594647792416,0.0
+Dimpflmeier,Loblaws,Voila,0.828810977617214,0.0
+Dimpflmeier,Loblaws,Walmart,0.572134961284887,71.3646511627907
+Duinkerken,Loblaws,Walmart,1.27741239892183,0.0
+Durra,Loblaws,NoFrills,0.3,0.0
+Farmer's Market,Loblaws,NoFrills,2.28907457322552,0.0
+Finn Crisp,Loblaws,NoFrills,0.7,0.0
+Fleischmanns,Loblaws,NoFrills,0.657834638329605,0.0
+Furlani,Loblaws,Metro,0.585211267605634,0.0
+Furlani,Loblaws,NoFrills,1.08560342446838,0.0
+Furlani,Loblaws,SaveOnFoods,0.365211267605634,0.0
+Furlani,Loblaws,Walmart,1.37213434452871,59.3560606060606
+Gardein,Loblaws,Metro,0.54560706401766,0.0
+Gardein,Loblaws,NoFrills,0.797484276729559,0.0
+Gardein,Loblaws,SaveOnFoods,0.0320833333333335,0.0
+Grissol,Loblaws,NoFrills,0.999501725625539,0.0
+Heiwa,Loblaws,NoFrills,0.269466571834993,0.0
+High Liner,Loblaws,Metro,2.78998663634645,0.0
+High Liner,Loblaws,NoFrills,0.379458573439324,0.0
+High Liner,Loblaws,SaveOnFoods,6.7292443385805,0.0
+High Liner,Loblaws,Walmart,0.957649787298452,0.0
+Janes,Loblaws,Metro,1.82526058044088,0.0
+Janes,Loblaws,SaveOnFoods,6.27814569536424,0.0
+Janes,Loblaws,Walmart,4.4517871905418,0.0
+Kikkoman,Loblaws,Metro,0.100841121495327,0.0
+Kikkoman,Loblaws,NoFrills,0.195073891625616,0.0
+Kikkoman,Loblaws,SaveOnFoods,0.633333333333334,0.0
+LA FOURNEE DOREE,Loblaws,NoFrills,0.375,0.0
+Larabar,Loblaws,NoFrills,0.0128389230042516,0.0
+Leclerc,Loblaws,NoFrills,0.527393319700069,0.0
+Little Northern Bakehouse,Loblaws,Metro,1.15459917331315,0.0
+Little Northern Bakehouse,Loblaws,NoFrills,0.261820236190214,0.0
+Little Northern Bakehouse,Loblaws,SaveOnFoods,1.02167602996255,0.0
+Little Northern Bakehouse,Loblaws,Walmart,0.146193573822195,0.0
+Manoucher,Loblaws,Metro,0.411485774499473,0.0
+No Name,Loblaws,NoFrills,0.57748382281703,0.0
+NotCo,Loblaws,Metro,2.28666666666667,0.0
+Nutella,Loblaws,Metro,1.78030155381421,0.0
+Nutella,Loblaws,NoFrills,0.260072572572572,0.0
+Nutella,Loblaws,Walmart,1.87796107331822,0.0
+ODoughs,Loblaws,NoFrills,0.541518987341773,0.0
+PC Black Label,Loblaws,NoFrills,0.452641509433962,0.0
+PC Organics,Loblaws,NoFrills,1.31201695702671,0.0
+Paneriso,Loblaws,NoFrills,0.0,0.0
+Pastene,Loblaws,Metro,0.576617630157454,0.0
+Pastene,Loblaws,NoFrills,0.192007240547064,0.0
+Pillsbury,Loblaws,NoFrills,0.482758620689655,0.0
+Pillsbury,Loblaws,Walmart,0.810258620689655,0.0
+Pope,Loblaws,NoFrills,0.527777777777778,0.0
+President's Choice,Loblaws,NoFrills,1.11097590792462,0.0
+Ready Bake,Loblaws,NoFrills,0.14927221576662,0.0
+Robin Hood,Loblaws,Metro,0.766113207547171,0.0
+Robin Hood,Loblaws,NoFrills,5.52046575342466,0.0
+Robin Hood,Loblaws,SaveOnFoods,2.80283333333333,0.0
+Robin Hood,Loblaws,Walmart,2.6505,22.0
+Rudolphs,Loblaws,NoFrills,0.273348291067316,0.0
+Ryvita,Loblaws,Metro,0.69471752630671,0.0
+Ryvita,Loblaws,NoFrills,0.698136498638726,0.0
+Ryvita,Loblaws,Walmart,1.33226565464896,0.0658823529411765
+Schar,Loblaws,NoFrills,0.588720161198591,0.0
+Schar,Loblaws,SaveOnFoods,1.80397390272835,0.0
+Schar,Loblaws,Walmart,1.53028450705758,0.0
+Silver Hills,Loblaws,Metro,0.151303008765695,0.0
+Silver Hills,Loblaws,NoFrills,1.07238115252161,0.0
+Silver Hills,Loblaws,SaveOnFoods,0.361494610281923,0.0
+Silver Hills,Loblaws,Walmart,0.981432973201056,56.6141304347826
+Stonefire,Loblaws,Metro,0.603385167464115,0.0
+Stonefire,Loblaws,NoFrills,0.409584048027444,0.0
+Stonemill,Loblaws,Metro,0.0117833727453975,0.0
+Stonemill,Loblaws,NoFrills,0.473960216998192,0.0
+Stonemill,Loblaws,Walmart,0.704734627772603,41.2464646464646
+Sufra,Loblaws,NoFrills,1.0,0.0
+Sunmaid,Loblaws,NoFrills,0.929863945578232,0.0
+Suraj,Loblaws,NoFrills,0.0950732039782576,0.0
+Villa Di Manno,Loblaws,NoFrills,0.553031860226104,0.0
+Villa Di Manno,Loblaws,Voila,1.28024691358025,0.0
+Villaggio,Loblaws,Metro,0.693730373436486,0.0
+Villaggio,Loblaws,NoFrills,0.0452517850038738,0.0
+Villaggio,Loblaws,SaveOnFoods,0.37827581799591,0.0
+Villaggio,Loblaws,Voila,0.200137252104438,0.0
+VitaVigor,Loblaws,NoFrills,0.2,0.0
+Vlasic,Loblaws,Metro,0.194656488549618,0.0
+Vlasic,Loblaws,NoFrills,1.2875845410628,0.0
+Voortman,Loblaws,Metro,0.730279242569511,0.0
+Voortman,Loblaws,NoFrills,0.370734473957841,0.0
+Voortman,Loblaws,SaveOnFoods,0.0171944108262734,0.0
+Voortman,Loblaws,Walmart,0.857863829035676,2.44736842105263
+Walkers,Loblaws,Metro,1.93532433004018,0.0
+Walkers,Loblaws,NoFrills,2.33077330508475,0.0
+Walkers,Loblaws,SaveOnFoods,2.22253466872111,0.0
+Walkers,Loblaws,Walmart,3.83646973365617,0.0
+Wasa,Loblaws,NoFrills,0.5,0.0
+Wasa,Loblaws,SaveOnFoods,0.522404371584699,0.0
+Wasa,Loblaws,Walmart,0.72,0.0
+Weight Watchers,Loblaws,Metro,0.37092128947799,0.0
+Weight Watchers,Loblaws,SaveOnFoods,0.831746031746031,0.0
+Weight Watchers,Loblaws,Voila,0.0903667214012041,0.0
+Weight Watchers,Loblaws,Walmart,0.888253968253968,0.0
+Weston,Loblaws,Metro,2.413,0.0
+Weston,Loblaws,NoFrills,0.022555555555555,0.0
+Wonder,Loblaws,Metro,0.65501402492827,0.0
+Wonder,Loblaws,NoFrills,0.57763432581664,0.0
+Wonder,Loblaws,SaveOnFoods,0.196412024088074,0.0
+Wonder,Loblaws,Walmart,0.430295372507065,
+Yves,Loblaws,NoFrills,0.844285714285713,0.0
+Yves,Loblaws,Walmart,1.21760869565217,0.0
+,Metro,NoFrills,0.829284359103132,0.0
+,Metro,TandT,0.280265628538597,
+,Metro,Voila,3.13519457220261,0.0
+,Metro,Walmart,2.05095970221719,0.0
+Al Safa Halal,Metro,Walmart,0.0598860398860417,0.0
+Aqua Star,Metro,SaveOnFoods,1.0704845814978,0.0
+Aqua Star,Metro,Walmart,6.4495154185022,
+Aurora,Metro,NoFrills,0.209137203081187,0.0
+BFree,Metro,Walmart,1.37962264150943,
+Betty Crocker,Metro,NoFrills,0.59,0.0
+Betty Crocker,Metro,SaveOnFoods,0.298333333333333,0.0
+Betty Crocker,Metro,Walmart,0.61,0.0
+Beyond Meat,Metro,NoFrills,1.45626051429945,0.0
+Beyond Meat,Metro,SaveOnFoods,0.100011415525113,0.0
+Beyond Meat,Metro,Walmart,1.53962788795747,1.34328358208955
+Bob's Red Mill,Metro,Walmart,1.27324261725536,
+Bon Matin,Metro,Walmart,0.183715277777778,76.3333333333333
+Boulangerie Grissol,Metro,Walmart,1.40434295967191,0.0
+Carbonaut,Metro,NoFrills,0.0624690631413731,0.0
+Carbonaut,Metro,SaveOnFoods,0.162992424242425,0.0
+Carbonaut,Metro,Walmart,0.137786363636364,0.672489082969432
+Catch of the Day,Metro,NoFrills,5.38434310675756,0.0
+Chapman's,Metro,SaveOnFoods,0.5,0.0
+Club House,Metro,SaveOnFoods,2.27777777777778,0.0
+Country Harvest,Metro,NoFrills,1.09017813612637,0.0
+Country Harvest,Metro,SaveOnFoods,0.0423707897793273,0.0
+Country Harvest,Metro,Walmart,0.633261926270056,68.3333333333333
+Create A Treat,Metro,NoFrills,5.32333333333333,0.0
+Create A Treat,Metro,SaveOnFoods,1.36842105263158,0.0
+Crispy,Metro,NoFrills,0.605127869424805,0.0
+Crispy,Metro,Walmart,0.598421052631579,0.0
+D'Italiano,Metro,NoFrills,1.0497212543554,0.0
+D'Italiano,Metro,SaveOnFoods,0.27289343786295,0.0
+Daiya,Metro,NoFrills,1.20884840598568,0.0
+Daiya,Metro,SaveOnFoods,0.203584770114944,0.0
+Daiya,Metro,Walmart,1.18352648418059,0.77319587628866
+Dare,Metro,NoFrills,0.312092365119133,0.0
+Dare,Metro,SaveOnFoods,1.58035902057984,0.0
+Dempster's,Metro,SaveOnFoods,0.750422726133237,0.0
+Dempster's,Metro,Voila,0.0515483286405312,0.0
+Dempster's,Metro,Walmart,0.402418132707892,59.9505233111323
+Dimpflmeier,Metro,NoFrills,0.51274002788625,0.0
+Dimpflmeier,Metro,Voila,1.13695635771105,0.0
+Dimpflmeier,Metro,Walmart,0.880280341378721,71.3646511627907
+Flamingo,Metro,Walmart,1.85333333333333,
+Flatout,Metro,Walmart,0.428695652173913,0.0
+Fleischmann's,Metro,SaveOnFoods,1.45208333333333,0.0
+Fleischmann's,Metro,Walmart,0.0342857142857147,0.0
+Franzeluta,Metro,NoFrills,0.0545454545454542,0.0
+Furlani,Metro,NoFrills,0.500392156862746,0.0
+Furlani,Metro,SaveOnFoods,0.22,0.0
+Furlani,Metro,Walmart,0.786923076923078,59.3560606060606
+Future,Metro,NoFrills,2.2,0.0
+Gardein,Metro,NoFrills,1.34309134074722,0.0
+Gardein,Metro,SaveOnFoods,0.577690397350993,0.0
+Golden Bakeshop,Metro,Walmart,0.0200000000000005,74.0
+Hans Freitag,Metro,Walmart,3.52,
+Harvest Gold,Metro,Walmart,1.00275862068966,44.0
+High Liner,Metro,NoFrills,3.16944520978577,0.0
+High Liner,Metro,SaveOnFoods,3.93925770223405,0.0
+High Liner,Metro,Walmart,1.832336849048,0.0
+Janes,Metro,SaveOnFoods,8.10340627580512,0.0
+Janes,Metro,Walmart,2.62652661010092,0.0
+Jason,Metro,Walmart,1.20051282051282,1.34166666666667
+Kasseler,Metro,Walmart,0.708988095238096,0.0
+Kikkoman,Metro,NoFrills,0.0942327701302892,0.0
+Kikkoman,Metro,SaveOnFoods,0.73417445482866,0.0
+Little Northern Bakehouse,Metro,NoFrills,0.892778937122936,0.0
+Little Northern Bakehouse,Metro,SaveOnFoods,0.132923143350602,0.0
+Little Northern Bakehouse,Metro,Walmart,1.00840559949095,0.0
+Maple Leaf,Metro,Walmart,4.692,0.0
+Mestemacher,Metro,Walmart,1.54753547505126,86.9242105263158
+Montreal Kosher,Metro,NoFrills,0.920733037210415,0.0
+Nutella,Metro,NoFrills,2.04037412638678,0.0
+Nutella,Metro,Walmart,0.0976595195040035,0.0
+Oroweat,Metro,Walmart,1.40571428571429,80.0
+Pastene,Metro,NoFrills,0.38461038961039,0.0
+Pereg,Metro,NoFrills,2.5,0.0
+Pereg,Metro,Walmart,1.6604081632653,5.0
+Prime,Metro,Walmart,3.55125,
+Robin Hood,Metro,NoFrills,4.75435254587749,0.0
+Robin Hood,Metro,SaveOnFoods,3.56894654088051,0.0
+Robin Hood,Metro,Walmart,1.88438679245283,22.0
+Rudolph's,Metro,Voila,0.527750228039657,0.0
+Ryvita,Metro,NoFrills,0.00341897233201571,0.0
+Ryvita,Metro,Walmart,0.637548128342246,0.0658823529411765
+Shana,Metro,Walmart,0.287379532308523,41.0
+Silver Hills,Metro,NoFrills,1.2236841612873,0.0
+Silver Hills,Metro,SaveOnFoods,0.512797619047618,0.0
+Silver Hills,Metro,Walmart,1.13273598196675,56.6141304347826
+Silver Hills Bakery,Metro,Voila,0.351445086705203,0.0
+St-Méthode,Metro,Walmart,1.04498453318335,80.4126984126984
+Stonefire,Metro,NoFrills,1.01296921549156,0.0
+Stonemill,Metro,NoFrills,0.485743589743589,0.0
+Stonemill,Metro,Walmart,0.716518000518001,41.2464646464646
+Stonemill Bakehouse,Metro,Voila,0.223446777697321,0.0
+Summer Fresh,Metro,SaveOnFoods,0.27962962962963,0.0
+Sun-Maid,Metro,Voila,0.158793759014029,0.0
+Sun-Maid,Metro,Walmart,0.394355098655902,5.06995884773663
+The Grain Escape,Metro,SaveOnFoods,0.333333333333334,0.0
+Thomas,Metro,NoFrills,0.0218829516539438,0.0
+Thomas,Metro,Walmart,0.695150946651141,15.7888888888889
+Thomas',Metro,Voila,1.03897058823529,0.0
+Villaggio,Metro,NoFrills,0.73898215844036,0.0
+Villaggio,Metro,SaveOnFoods,1.0720061914324,0.0
+Villaggio,Metro,Voila,0.893867625540924,0.0
+Vlasic,Metro,NoFrills,1.09292805251318,0.0
+Voortman,Metro,NoFrills,0.35954476861167,0.0
+Voortman,Metro,SaveOnFoods,0.747473653395784,0.0
+Voortman,Metro,Walmart,0.127584586466166,2.44736842105263
+Walkers,Metro,NoFrills,0.395448975044563,0.0
+Walkers,Metro,SaveOnFoods,0.287210338680928,0.0
+Walkers,Metro,Walmart,1.90114540361599,0.0
+Weight Watchers,Metro,SaveOnFoods,0.460824742268041,0.0
+Weight Watchers,Metro,Voila,0.280554568076786,0.0
+Weight Watchers,Metro,Walmart,1.25917525773196,0.0
+Weston,Metro,NoFrills,2.43555555555556,0.0
+Wonder,Metro,NoFrills,1.23264835074491,0.0
+Wonder,Metro,SaveOnFoods,0.458602000840196,0.0
+Wonder,Metro,Walmart,1.08530939743534,
+,NoFrills,TandT,0.549018730564535,
+,NoFrills,Voila,2.30591021309948,0.0
+,NoFrills,Walmart,1.22167534311406,0.0
+A&B Famous,NoFrills,Walmart,0.33941064235743,
+Betty Crocker,NoFrills,SaveOnFoods,0.291666666666667,0.0
+Betty Crocker,NoFrills,Walmart,0.0199999999999996,0.0
+Beyond Meat,NoFrills,SaveOnFoods,1.55627192982456,0.0
+Beyond Meat,NoFrills,Walmart,0.0833673736580263,1.34328358208955
+Carbonaut,NoFrills,SaveOnFoods,0.225461487383798,0.0
+Carbonaut,NoFrills,Walmart,0.0753173004949907,0.672489082969432
+Country Harvest,NoFrills,SaveOnFoods,1.1325489259057,0.0
+Country Harvest,NoFrills,Walmart,0.456916209856316,68.3333333333333
+Create A Treat,NoFrills,SaveOnFoods,6.69175438596491,0.0
+Crispy,NoFrills,Walmart,1.20354892205638,0.0
+D'Italiano,NoFrills,SaveOnFoods,0.77682781649245,0.0
+Daiya,NoFrills,SaveOnFoods,1.41243317610063,0.0
+Daiya,NoFrills,Walmart,0.0253219218050962,0.77319587628866
+Dare,NoFrills,SaveOnFoods,1.89245138569897,0.0
+Dimpflmeier,NoFrills,Voila,0.624216329824798,0.0
+Dimpflmeier,NoFrills,Walmart,0.367540313492471,71.3646511627907
+Furlani,NoFrills,SaveOnFoods,0.720392156862745,0.0
+Furlani,NoFrills,Walmart,0.286530920060332,59.3560606060606
+Gardein,NoFrills,SaveOnFoods,0.765400943396226,0.0
+General Mills,NoFrills,SaveOnFoods,1.0,0.0
+Goldilocks,NoFrills,Walmart,0.52,
+High Liner,NoFrills,SaveOnFoods,7.10870291201983,0.0
+High Liner,NoFrills,Walmart,1.33710836073778,0.0
+Kikkoman,NoFrills,SaveOnFoods,0.82840722495895,0.0
+Little Northern Bakehouse,NoFrills,SaveOnFoods,0.759855793772333,0.0
+Little Northern Bakehouse,NoFrills,Walmart,0.115626662368019,0.0
+Monde,NoFrills,Walmart,0.12,0.0
+Nutella,NoFrills,Walmart,2.13803364589079,0.0
+Pereg,NoFrills,Walmart,0.839591836734694,5.0
+Pillsbury,NoFrills,Walmart,0.327500000000001,0.0
+Robin Hood,NoFrills,SaveOnFoods,8.32329908675799,0.0
+Robin Hood,NoFrills,Walmart,2.86996575342466,22.0
+Ryvita,NoFrills,Walmart,0.63412915601023,0.0658823529411765
+Schar,NoFrills,SaveOnFoods,2.39269406392694,0.0
+Schar,NoFrills,Walmart,0.941564345858993,0.0
+Silver Hills,NoFrills,SaveOnFoods,0.710886542239686,0.0
+Silver Hills,NoFrills,Walmart,0.0909481793205522,56.6141304347826
+Stonemill,NoFrills,Walmart,0.230774410774411,41.2464646464646
+Thomas,NoFrills,Walmart,0.717033898305084,15.7888888888889
+Villa Di Manno,NoFrills,Voila,0.727215053354142,0.0
+Villaggio,NoFrills,SaveOnFoods,0.333024032992037,0.0
+Villaggio,NoFrills,Voila,0.154885467100564,0.0
+Voortman,NoFrills,SaveOnFoods,0.387928884784114,0.0
+Voortman,NoFrills,Walmart,0.487129355077836,2.44736842105263
+Walkers,NoFrills,SaveOnFoods,0.108238636363636,0.0
+Walkers,NoFrills,Walmart,1.50569642857143,0.0
+Wasa,NoFrills,SaveOnFoods,1.0224043715847,0.0
+Wasa,NoFrills,Walmart,0.22,0.0
+Wonder,NoFrills,SaveOnFoods,0.774046349904713,0.0
+Wonder,NoFrills,Walmart,0.147338953309574,
+Yves,NoFrills,Walmart,0.373322981366461,0.0
+Zabiha Halal,NoFrills,Walmart,1.17686274509804,
+Aqua Star,SaveOnFoods,Walmart,7.52,
+Betty Crocker,SaveOnFoods,Walmart,0.311666666666667,0.0
+Beyond Meat,SaveOnFoods,Walmart,1.63963930348259,1.34328358208955
+Carbonaut,SaveOnFoods,Walmart,0.300778787878789,0.672489082969432
+Country Harvest,SaveOnFoods,Walmart,0.675632716049384,68.3333333333333
+Daiya,SaveOnFoods,Walmart,1.38711125429553,0.77319587628866
+Dempster's,SaveOnFoods,Voila,0.698874397492705,0.0
+Dempster's,SaveOnFoods,Walmart,1.15284085884113,59.9505233111323
+Fleischmann's,SaveOnFoods,Walmart,1.48636904761905,0.0
+Furlani,SaveOnFoods,Walmart,1.00692307692308,59.3560606060606
+High Liner,SaveOnFoods,Walmart,5.77159455128205,0.0
+Janes,SaveOnFoods,Walmart,10.729932885906,0.0
+Little Northern Bakehouse,SaveOnFoods,Walmart,0.875482456140352,0.0
+Promise,SaveOnFoods,Walmart,1.69690972222222,0.0
+Robin Hood,SaveOnFoods,Walmart,5.45333333333333,22.0
+Schar,SaveOnFoods,Walmart,3.33425840978593,0.0
+Silver Hills,SaveOnFoods,Walmart,0.619938362919133,56.6141304347826
+Villaggio,SaveOnFoods,Voila,0.178138565891473,0.0
+Voortman,SaveOnFoods,Walmart,0.87505823986195,2.44736842105263
+Walkers,SaveOnFoods,Walmart,1.61393506493506,0.0
+Wasa,SaveOnFoods,Walmart,1.2424043715847,0.0
+Weight Watchers,SaveOnFoods,Voila,0.741379310344827,0.0
+Weight Watchers,SaveOnFoods,Walmart,1.72,0.0
+Wonder,SaveOnFoods,Walmart,0.626707396595139,
+,TandT,Voila,2.85492894366402,
+,TandT,Walmart,1.77069407367859,
+,Voila,Walmart,1.08423486998542,0.0
+Dempster's,Voila,Walmart,0.453966461348423,59.9505233111323
+Dimpflmeier,Voila,Walmart,0.256676016332327,71.3646511627907
+Sun-Maid,Voila,Walmart,0.553148857669931,5.06995884773663
+Weight Watchers,Voila,Walmart,0.978620689655172,0.0

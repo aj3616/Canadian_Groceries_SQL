@@ -1,0 +1,562 @@
+vendor,brand,avg_current_price,avg_price_per_unit,product_count
+Galleria,,7.19642109064644,,5538
+Loblaws,,6.6570857400722,0.0,4545
+Loblaws,34 Degrees,7.67816091954023,0.0,176
+Loblaws,4C,5.22949730700179,0.0,563
+Loblaws,ACE,5.21857142857143,0.0,14
+Loblaws,Allessia,3.0,0.0,331
+Loblaws,Arva Flour Mill,10.49,0.0,456
+Loblaws,Aurora,4.2852479338843,0.0,492
+Loblaws,Betty Crocker,4.39915032679739,0.0,154
+Loblaws,Beyond Meat,7.68830188679245,0.0,53
+Loblaws,BlueWater Seafoods,8.33762633996937,0.0,661
+Loblaws,Bobs Red Mill,8.77861209964413,0.0,282
+Loblaws,Burt's Bees,14.0,0.0,30
+Loblaws,Carbonaut,9.11075697211155,0.0,1021
+Loblaws,Cedar,1.88756097560976,0.0,207
+Loblaws,Club House,5.29,0.0,70
+Loblaws,Country Harvest,4.20409908735332,0.0,1656
+Loblaws,Create A Treat,13.99,0.0,58
+Loblaws,Crispy,3.00898876404494,0.0,451
+Loblaws,D'Italiano,3.70262127659574,0.0,750
+Loblaws,Daiya,10.6936516853933,0.0,360
+Loblaws,Dare,5.17016,0.0,381
+Loblaws,Dempster,4.61159003397509,0.0,917
+Loblaws,Dimpflmeier,4.41041403105233,0.0,1800
+Loblaws,Duinkerken,6.96169811320755,0.0,53
+Loblaws,Durra,4.99,0.0,151
+Loblaws,Farmer's Market,6.72716981132076,0.0,53
+Loblaws,Finn Crisp,4.49,0.0,290
+Loblaws,Fleischmanns,5.89436241610738,0.0,302
+Loblaws,Furlani,5.43854460093897,0.0,218
+Loblaws,Gardein,7.40333333333333,0.0,152
+Loblaws,General Mills,5.99,0.0,1
+Loblaws,Grissol,3.96302631578947,0.0,154
+Loblaws,Handfuel,6.99,0.0,1
+Loblaws,Heiwa,3.73473684210526,0.0,154
+Loblaws,High Liner,9.64617232808616,0.0,1219
+Loblaws,Janes,14.2118543046358,0.0,306
+Loblaws,Kikkoman,4.49,0.0,106
+Loblaws,LA FOURNEE DOREE,6.365,0.0,88
+Loblaws,Larabar,2.01164383561644,0.0,148
+Loblaws,Leclerc,4.30911111111111,0.0,229
+Loblaws,Little Northern Bakehouse,7.74749063670412,0.0,541
+Loblaws,Manouch,4.49,0.0,179
+Loblaws,Manoucher,4.27851422550053,0.0,981
+Loblaws,Marco-Polo,3.79,0.0,58
+Loblaws,Mary Macleod's Short Bread,20.5279746835443,0.0,162
+Loblaws,Nairn's,5.99,0.0,207
+Loblaws,No Name,4.20623603351955,0.0,1479
+Loblaws,NotCo,9.99,0.0,53
+Loblaws,Nutella,6.15898148148148,0.0,218
+Loblaws,ODoughs,6.96151898734177,0.0,160
+Loblaws,PC Black Label,3.49,0.0,53
+Loblaws,PC Organics,4.53808362369338,0.0,292
+Loblaws,Paneriso,7.99,0.0,53
+Loblaws,Papadopoulos,2.49,0.0,151
+Loblaws,Pastene,4.94973451327434,0.0,460
+Loblaws,Pillsbury,5.47275862068966,0.0,29
+Loblaws,Pope,4.71777777777778,0.0,144
+Loblaws,President's Choice,10.0091622364803,0.0,5536
+Loblaws,Queen St. Bakery,8.46333333333333,0.0,151
+Loblaws,Ready Bake,5.58771573604061,0.0,414
+Loblaws,Robin Hood,10.858,0.0,379
+Loblaws,Rudolphs,4.32171896316508,0.0,1549
+Loblaws,Ryvita,5.14085388994307,0.0,527
+Loblaws,Schar,8.60269276393832,0.0,860
+Loblaws,Sha Sha,5.99,0.0,5
+Loblaws,Silver Hills,6.45774461028192,0.0,612
+Loblaws,Stonefire,3.72977272727273,0.0,88
+Loblaws,Stonemill,5.46396021699819,0.0,1139
+Loblaws,Stonewall Kitchen,12.0,0.0,106
+Loblaws,Sufra,11.0,0.0,153
+Loblaws,Sunmaid,5.60428571428571,0.0,170
+Loblaws,Suraj,3.91271056661562,0.0,661
+Loblaws,Twinings,5.97275862068966,0.0,29
+Loblaws,Unbun,9.44047169811321,0.0,214
+Loblaws,Villa Di Manno,2.99,0.0,151
+Loblaws,Villaggio,4.10693251533742,0.0,165
+Loblaws,VitaVigor,2.49,0.0,308
+Loblaws,Vlasic,6.49,0.0,53
+Loblaws,Voortman,4.30510067114094,0.0,303
+Loblaws,Walkers,7.52389830508475,0.0,236
+Loblaws,Wasa,4.49,0.0,297
+Loblaws,Weight Watchers,5.45825396825397,0.0,64
+Loblaws,Weston,3.377,0.0,8
+Loblaws,Wilton,7.99,0.0,29
+Loblaws,Wonder,3.59179425393883,0.0,1165
+Loblaws,Yves,7.74,0.0,106
+Loblaws,error,3.0675,0.0,4
+Loblaws,two-bite,7.99,0.0,29
+Metro,,4.91904029778281,0.0,6179
+Metro,Adonis,2.43704697986577,0.0,298
+Metro,Aki Sushi,5.99,0.0,1
+Metro,Al Safa Halal,7.91877492877493,0.0,351
+Metro,Aqua Star,11.9195154185022,0.0,227
+Metro,Aurora,4.48931350114417,0.0,437
+Metro,BFree,7.34962264150943,0.0,265
+Metro,Bagelwich,4.99,0.0,2
+Metro,Betty Crocker,4.58,0.0,145
+Metro,Beyond Meat,8.27082191780822,0.0,146
+Metro,Beyond Meats,6.99,0.0,95
+Metro,Bioitalia,3.29,0.0,2
+Metro,Blue Water  Seafoods,12.99,0.0,1
+Metro,BlueWater Seafoods,12.4382900700453,0.0,2427
+Metro,Bluewater Seafoods,7.99,0.0,2
+Metro,Bob Red Mill,6.99,0.0,37
+Metro,Bob's Red Mill,8.27636363636364,0.0,198
+Metro,Bon Matin,4.7759375,0.0,32
+Metro,Boulangerie Grissol,2.33547846889952,0.0,418
+Metro,Breadko Bakery,3.72333333333333,0.0,84
+Metro,Bâton Rouge,17.99,0.0,2
+Metro,Campbell's,4.99,0.0,14
+Metro,Campbells,4.99,0.0,10
+Metro,Carbonaut,9.00715909090909,0.0,880
+Metro,Catch of the Day,5.32289827255278,0.0,521
+Metro,Celestial Seasonings,4.79,0.0,4
+Metro,Chapman's,6.49,0.0,14
+Metro,Cinnabon,5.69,0.0,16
+Metro,Club House,3.72333333333333,0.0,60
+Metro,Cookie it Up,6.36772925764192,0.0,458
+Metro,Corn Flakes,5.99,0.0,113
+Metro,Country Harvest,4.43721254355401,0.0,1722
+Metro,Create A Treat,14.99,0.0,29
+Metro,Create-a-Treat,12.95875,0.0,32
+Metro,Crispy,3.37157894736842,0.0,76
+Metro,D'Italiano,4.42331010452962,0.0,1148
+Metro,Daiya,10.5762068965517,0.0,116
+Metro,Dare,4.39154574132492,0.0,317
+Metro,Dempster's,4.15579903978052,0.0,8748
+Metro,Dimpflmeier,4.71855941114616,0.0,2853
+Metro,Disney,14.99,0.0,16
+Metro,Divya,2.19092592592593,0.0,108
+Metro,Dunn's,4.99,0.0,3
+Metro,Elf on the Shelf,10.1478947368421,0.0,19
+Metro,Fancy Pokket,3.69,0.0,98
+Metro,Flamingo,15.3233333333333,0.0,6
+Metro,Flatout,4.99869565217391,0.0,115
+Metro,Fleischmann's,4.99,0.0,3
+Metro,Food for life,9.63985074626866,0.0,536
+Metro,Franzeluta,2.93545454545455,0.0,11
+Metro,Front Street Bakery,4.52277938767796,0.0,7937
+Metro,Furlani,4.85333333333333,0.0,900
+Metro,Future,6.99,0.0,5
+Metro,Gadoua,4.99,0.0,15
+Metro,Gardein,7.94894039735099,0.0,151
+Metro,General Mills,4.99,0.0,1
+Metro,Golden Bakeshop,4.49,0.0,48
+Metro,Good For You Desserts,1.49,0.0,53
+Metro,Good-For-You,7.99,0.0,241
+Metro,Granforno,2.49,0.0,1
+Metro,Hans Freitag,6.99,0.0,8
+Metro,Harvest Gold,3.97275862068966,0.0,116
+Metro,Hermes,4.60578947368421,0.0,76
+Metro,High Liner,12.4361589644326,0.0,8266
+Metro,Home Style,3.99,0.0,22
+Metro,Homestyle,3.99,0.0,23
+Metro,Inéwa,5.09,0.0,8
+Metro,Inéwa Boulangerie Alternative,6.24,0.0,4
+Metro,Irresistibles,5.78924973767051,0.0,3812
+Metro,Irrésistible,5.18945736434109,0.0,129
+Metro,ItalPasta,4.99,0.0,119
+Metro,Janes,12.3865937241949,0.0,2422
+Metro,Jason,6.43615384615385,0.0,13
+Metro,Kasseler,4.9789880952381,0.0,336
+Metro,Kellogg's,4.20646153846154,0.0,130
+Metro,Kikkoman,4.38915887850467,0.0,214
+Metro,Kontos,4.99,0.0,2
+Metro,Krokus,5.25,0.0,10
+Metro,La Cage,14.1328571428571,0.0,7
+Metro,La Fournée Dorée,6.38236641221374,0.0,131
+Metro,Le Pain des Fleurs,7.25666666666667,0.0,3
+Metro,Leclerc,4.29,0.0,1
+Metro,Life Smart,7.36228915662651,0.0,415
+Metro,Little Northern Bakehouse,8.90208981001727,0.0,1158
+Metro,Lol Surprise,19.99,0.0,16
+Metro,Manoucher,4.69,0.0,11
+Metro,Maple Leaf,15.062,0.0,125
+Metro,Maple Lodge Farms,11.9054929577465,0.0,355
+Metro,Maricota,6.99,0.0,64
+Metro,Merit,4.77947368421053,0.0,19
+Metro,Mestemacher,5.8861038961039,0.0,77
+Metro,MonCuisin,7.99,0.0,9
+Metro,Montreal Kosher,5.84801526717557,0.0,131
+Metro,Mr.Gouda's,6.79,0.0,3
+Metro,Mrs.Cubbison's,3.49,0.0,1
+Metro,Nairn,5.49,0.0,116
+Metro,Nana Pops,7.99,0.0,3
+Metro,Nino D'Aversa Bakery,4.25237942122186,0.0,311
+Metro,NotCo,7.70333333333333,0.0,240
+Metro,Nutella,4.37867992766727,0.0,553
+Metro,O'Doughs,6.27571428571429,0.0,616
+Metro,OceanPrime,13.6803225806452,0.0,155
+Metro,Of Tov,28.99,0.0,2
+Metro,Olivia's,9.99,0.0,34
+Metro,Oroweat,6.87571428571429,0.0,308
+Metro,Pars The Bread Factory,5.1,0.0,140
+Metro,Pasquale's,4.99,0.0,1
+Metro,Pastene,4.37311688311688,0.0,77
+Metro,Paw Patrol,9.99,0.0,39
+Metro,Pereg,4.99,0.0,27
+Metro,Petite Rachel's,12.99,0.0,1
+Metro,Pillsbury,5.49,0.0,1
+Metro,Pinty's,16.2711059907834,0.0,868
+Metro,Pita Break,4.99,0.0,9
+Metro,Pita Delight,3.84147058823529,0.0,136
+Metro,Platinum Grill,7.34860724233983,0.0,359
+Metro,Pom,3.10722222222222,0.0,18
+Metro,Première Moisson,5.77340909090909,0.0,440
+Metro,Prime,15.52125,0.0,32
+Metro,Promise Gluten Free,8.715,0.0,100
+Metro,Provisions Food Company,9.99,0.0,54
+Metro,Purity,8.79,0.0,26
+Metro,Queen St.Bakery,8.74,0.0,40
+Metro,Reids,5.49,0.0,11
+Metro,Reko,4.99,0.0,4
+Metro,Robin Hood,10.0918867924528,0.0,265
+Metro,Rudolph's,4.20221412300683,0.0,2195
+Metro,RyVita,4.37624454148472,0.0,1374
+Metro,Ryvita,4.44613636363636,0.0,132
+Metro,Santosh,3.51451376146789,0.0,545
+Metro,Schneiders,14.2161904761905,0.0,84
+Metro,Schär,10.0356140350877,0.0,855
+Metro,Selection,3.55294749896651,0.0,2419
+Metro,Shana,2.75101910828025,0.0,785
+Metro,Shasha Co.,6.57333333333333,0.0,48
+Metro,Silver Hills,6.60904761904762,0.0,84
+Metro,Silver Hills Bakery,6.6385549132948,0.0,2076
+Metro,Snowdon Bakery,5.99,0.0,2
+Metro,Sol Cuisine,7.52160173160173,0.0,231
+Metro,St-Hubert,13.992427184466,0.0,206
+Metro,St-Méthode,3.63446428571429,0.0,56
+Metro,Stonefire,4.33315789473684,0.0,190
+Metro,Stonemill,5.47574358974359,0.0,390
+Metro,Stonemill Bakehouse,5.51344677769732,0.0,1381
+Metro,Strawberry Blonde,6.99,0.0,15
+Metro,Streit's,2.99,0.0,10
+Metro,Summer Fresh,2.9862962962963,0.0,135
+Metro,Sun-Maid,5.4725855513308,0.0,263
+Metro,The Grain Escape,9.49,0.0,19
+Metro,The Laughing Cow,4.2884962406015,0.0,133
+Metro,Thomas,5.46811704834606,0.0,393
+Metro,Thomas',5.52897058823529,0.0,136
+Metro,Tnuva,9.99,0.0,2
+Metro,Toppits,11.99,0.0,121
+Metro,Tramezzini,3.99,0.0,16
+Metro,Two-Bite,6.44833333333333,0.0,48
+Metro,Universal Filipino Foods,3.79,0.0,13
+Metro,Vachon,4.99,0.0,7
+Metro,Villaggio,3.41320214190094,0.0,3735
+Metro,Vita Vigor,2.10883395522388,0.0,1072
+Metro,Vlasic,6.29534351145038,0.0,131
+Metro,Voortman,3.57482142857143,0.0,168
+Metro,Walkers,5.58857397504456,0.0,561
+Metro,Wasa,3.79,0.0,1
+Metro,Watson Ridge,7.11756013745704,0.0,291
+Metro,Weight Watchers,5.82917525773196,0.0,485
+Metro,Weiss,3.29,0.0,2
+Metro,Weston,5.79,0.0,11
+Metro,Wonder,4.2468082788671,0.0,918
+Metro,XO Baking,9.85641221374046,0.0,262
+Metro,Yves Veggie Cuisine,7.54223880597015,0.0,67
+Metro,Zoglo's,6.49,0.0,26
+Metro,metrogo!,6.05,0.0,1
+NoFrills,,5.74832465688594,0.0,2261
+NoFrills,4C,3.92207547169811,0.0,106
+NoFrills,A&B Famous,9.17867924528302,0.0,107
+NoFrills,Absolute,6.7495818815331,0.0,290
+NoFrills,Aurora,4.69845070422535,0.0,358
+NoFrills,Baxter,6.99,0.0,103
+NoFrills,Betty Crocker,3.99,0.0,53
+NoFrills,Beyond Meat,6.81456140350877,0.0,57
+NoFrills,Bobs Red Mill,4.49,0.0,1
+NoFrills,Carbonaut,9.06962815405046,0.0,773
+NoFrills,Catch of the Day,10.7072413793103,0.0,292
+NoFrills,Cedar,1.42307317073171,0.0,206
+NoFrills,Chapmans,6.99,0.0,58
+NoFrills,Compass,5.92098591549296,0.0,71
+NoFrills,Country Harvest,3.34703440742764,0.0,1879
+NoFrills,Create A Treat,9.66666666666667,0.0,87
+NoFrills,Crispy,2.76645107794362,0.0,611
+NoFrills,Crown,9.29,0.0,97
+NoFrills,D'Italiano,3.37358885017422,0.0,907
+NoFrills,Daiya,9.36735849056604,0.0,53
+NoFrills,Dare,4.07945337620579,0.0,315
+NoFrills,Dempster,3.94038235294118,0.0,1061
+NoFrills,Dimpflmeier,4.20581938325991,0.0,2433
+NoFrills,Durra,5.29,0.0,81
+NoFrills,FV Foods,4.39979166666667,0.0,543
+NoFrills,Farmer's Market,4.43809523809524,0.0,105
+NoFrills,Ferma,19.99,0.0,53
+NoFrills,Finn Crisp,3.79,0.0,296
+NoFrills,Fleischmanns,5.23652777777778,0.0,290
+NoFrills,Franzeluta,2.99,0.0,95
+NoFrills,Furlani,4.35294117647059,0.0,368
+NoFrills,Future,4.79,0.0,137
+NoFrills,Gardein,6.60584905660377,0.0,53
+NoFrills,Gefen,6.23864864864865,0.0,188
+NoFrills,General Mills,3.99,0.0,29
+NoFrills,Goldies,1.79,0.0,1
+NoFrills,Goldilocks,6.49,0.0,14
+NoFrills,Grissol,2.96352459016393,0.0,124
+NoFrills,HTB,4.73807692307692,0.0,104
+NoFrills,Heiwa,3.46527027027027,0.0,149
+NoFrills,High Liner,9.26671375464684,0.0,1357
+NoFrills,Homemade Kosher,4.89,0.0,3
+NoFrills,Italpasta,3.99,0.0,53
+NoFrills,Jeff Nathan Creations,14.99,0.0,101
+NoFrills,Kelloggs,4.24161290322581,0.0,64
+NoFrills,Kikkoman,4.29492610837438,0.0,205
+NoFrills,Krakus,2.49,0.0,156
+NoFrills,LA FOURNEE DOREE,5.99,0.0,121
+NoFrills,Larabar,2.02448275862069,0.0,147
+NoFrills,Lazar,4.0766028708134,0.0,451
+NoFrills,Leclerc,3.78171779141104,0.0,164
+NoFrills,Little Northern Bakehouse,8.00931087289433,0.0,680
+NoFrills,Marco-Polo,4.49,0.0,1
+NoFrills,Molisana,2.87085106382979,0.0,116
+NoFrills,Monde,1.49,0.0,13
+NoFrills,Montpak,6.99,0.0,53
+NoFrills,Montreal Kosher,4.92728222996516,0.0,326
+NoFrills,Nathan,7.15666666666667,0.0,95
+NoFrills,Nino D'aversa,3.78799196787149,0.0,249
+NoFrills,No Name,4.78371985633658,0.0,2008
+NoFrills,Nutella,6.41905405405405,0.0,150
+NoFrills,ODoughs,6.42,0.0,10
+NoFrills,PC Black Label,3.03735849056604,0.0,53
+NoFrills,PC Organics,3.22606666666667,0.0,304
+NoFrills,Paneriso,7.99,0.0,53
+NoFrills,Pastene,4.75772727272727,0.0,223
+NoFrills,Pereg,7.49,0.0,42
+NoFrills,Pillsbury,4.99,0.0,29
+NoFrills,Pilly's,4.75465517241379,0.0,244
+NoFrills,Pope,4.19,0.0,108
+NoFrills,President's Choice,8.89818632855568,0.0,3690
+NoFrills,Ralph's,4.95134969325153,0.0,175
+NoFrills,Ready Bake,5.73698795180723,0.0,441
+NoFrills,Robin Hood,5.33753424657534,0.0,148
+NoFrills,Rudolphs,4.04837067209776,0.0,1561
+NoFrills,Ryvita,4.44271739130435,0.0,368
+NoFrills,Schar,8.01397260273973,0.0,147
+NoFrills,Silver Hills,5.38536345776031,0.0,544
+NoFrills,Stonefire,3.32018867924528,0.0,106
+NoFrills,Stonemill,4.99,0.0,987
+NoFrills,Sufra,10.0,0.0,149
+NoFrills,Sunmaid,4.67442176870748,0.0,156
+NoFrills,Suraj,3.81763736263736,0.0,736
+NoFrills,Thomas,5.49,0.0,94
+NoFrills,Villa Di Manno,3.5430318602261,0.0,1018
+NoFrills,Villaggio,4.1521843003413,0.0,304
+NoFrills,VitaVigor,2.29,0.0,349
+NoFrills,Vlasic,5.2024154589372,0.0,209
+NoFrills,Voortman,3.9343661971831,0.0,142
+NoFrills,Walkers,5.193125,0.0,64
+NoFrills,Wasa,3.99,0.0,262
+NoFrills,Weston,3.35444444444444,0.0,43
+NoFrills,Wonder,3.01415992812219,0.0,1167
+NoFrills,Yummy,9.99,0.0,98
+NoFrills,Yves,6.89571428571429,0.0,105
+NoFrills,Zabiha Halal,12.146862745098,0.0,205
+SaveOnFoods,-,4.49,0.0,6
+SaveOnFoods,Abigails Kitchen,4.71916666666667,0.0,48
+SaveOnFoods,Aqua Star,12.99,0.0,48
+SaveOnFoods,Bake Shop,5.25530769230769,0.0,1170
+SaveOnFoods,Bakery Bling,23.8233333333333,0.0,24
+SaveOnFoods,Bavarian,6.82333333333333,0.0,96
+SaveOnFoods,Betty Crocker,4.28166666666667,0.0,48
+SaveOnFoods,Beyond Meat,8.37083333333333,0.0,48
+SaveOnFoods,Bread Crumbs,0.89,0.0,107
+SaveOnFoods,Carbonaut,8.84416666666667,0.0,144
+SaveOnFoods,Catch Of the Day,11.6566666666667,0.0,48
+SaveOnFoods,Chapman's,6.99,0.0,26
+SaveOnFoods,Club House,6.00111111111111,0.0,18
+SaveOnFoods,Cookie,4.49,,3
+SaveOnFoods,Country Harvest,4.47958333333333,0.0,480
+SaveOnFoods,Create A Treat,16.3584210526316,0.0,19
+SaveOnFoods,D'Italiano,4.15041666666667,0.0,144
+SaveOnFoods,Daiya,10.7797916666667,0.0,96
+SaveOnFoods,Dare,5.97190476190476,0.0,105
+SaveOnFoods,Deli World,3.23583333333333,0.0,48
+SaveOnFoods,Dempster's,4.90622176591376,0.0,487
+SaveOnFoods,Fleischmann's,6.44208333333333,0.0,48
+SaveOnFoods,Furlani,5.07333333333333,0.0,12
+SaveOnFoods,GO PURE,4.02625,0.0,48
+SaveOnFoods,Gardein,7.37125,0.0,96
+SaveOnFoods,General Mills,4.99,0.0,3
+SaveOnFoods,Ginger,2.49,0.0,1
+SaveOnFoods,High Liner,16.3754166666667,0.0,192
+SaveOnFoods,Hippie Snacks,6.52296703296703,0.0,91
+SaveOnFoods,Janes,20.49,0.0,48
+SaveOnFoods,Kikkoman,5.12333333333333,0.0,48
+SaveOnFoods,Knead To Bake,5.64625,0.0,48
+SaveOnFoods,Little Northern Bakehouse,8.76916666666667,0.0,240
+SaveOnFoods,Monte Cristo Bakery,11.99,0.0,8
+SaveOnFoods,Natural Bakery,4.64277777777778,0.0,144
+SaveOnFoods,Okanagan Frozen Dough,3.57,0.0,90
+SaveOnFoods,Only Goodness,9.18479166666667,0.0,96
+SaveOnFoods,PaneRiso,8.29,0.0,96
+SaveOnFoods,Portofino Bakery,10.99,0.0,144
+SaveOnFoods,Promise,9.66690972222222,0.0,288
+SaveOnFoods,Robin Hood,13.6608333333333,0.0,48
+SaveOnFoods,Rogers,7.94625,0.0,48
+SaveOnFoods,Save-On-Foods,11.4190052356021,0.0,191
+SaveOnFoods,Schar,10.4066666666667,0.0,96
+SaveOnFoods,Sigdal Bakeri,8.64,0.0,96
+SaveOnFoods,Silver Hills,6.09625,0.0,192
+SaveOnFoods,Summer Fresh,2.70666666666667,0.0,48
+SaveOnFoods,Swell Catch,9.99,0.0,48
+SaveOnFoods,The Grain Escape,9.15666666666667,0.0,96
+SaveOnFoods,Value Priced,10.29,0.0,48
+SaveOnFoods,Villaggio,4.48520833333333,0.0,144
+SaveOnFoods,Voortman,4.32229508196721,0.0,183
+SaveOnFoods,Walkers,5.30136363636364,0.0,88
+SaveOnFoods,Wasa,5.0124043715847,0.0,183
+SaveOnFoods,Weight Watchers,6.29,0.0,48
+SaveOnFoods,Wendel's,9.49,0.0,8
+SaveOnFoods,Western Family,7.93322876817138,0.0,1307
+SaveOnFoods,Wonder,3.78820627802691,0.0,223
+SaveOnFoods,XO Baking Co,13.4775,0.0,48
+SaveOnFoods,XO Baking Co.,13.4775,0.0,48
+TandT,,5.19930592632141,,11238
+Voila,,8.05423486998543,0.0,52148
+Voila,Compliments,2.81748091603053,0.0,131
+Voila,Dempster's,4.20734736842105,0.0,475
+Voila,Dimpflmeier,3.58160305343511,0.0,131
+Voila,Farm Boy,3.4730540037244,0.0,537
+Voila,Longo's,3.06692307692308,0.0,26
+Voila,Rudolph's,3.67446389496718,0.0,457
+Voila,SM Protein,5.42929824561404,0.0,57
+Voila,Silver Hills Bakery,6.99,0.0,58
+Voila,Stonemill,4.49,0.0,1
+Voila,Stonemill Bakehouse,5.29,0.0,63
+Voila,Sun-Maid,5.63137931034483,0.0,58
+Voila,The Stonemill Bakehouse,5.45363636363636,0.0,110
+Voila,Thomas',4.49,0.0,14
+Voila,Villa Di Manno,4.27024691358025,0.0,81
+Voila,Villaggio,4.30706976744186,0.0,215
+Voila,WW,5.39,0.0,35
+Voila,Weight Watchers,5.54862068965517,0.0,58
+Walmart,,6.97,0.0,58
+Walmart,"1
+5 out of 5 stars. 1 reviews",4.47,,1
+Walmart,4C Foods,3.92615615615616,72.6126126126126,666
+Walmart,A&B Famous,9.51808988764045,,89
+Walmart,ABSOLUTELY GLUTEN FREE,7.35461538461538,0.769230769230769,13
+Walmart,Al Safa Halal,7.85888888888889,0.0,162
+Walmart,Aqua Star,5.47,,61
+Walmart,Aurora GB,3.92173469387755,70.3877551020408,98
+Walmart,BFree,5.97,,141
+Walmart,Babybel,1.47,0.0,273
+Walmart,Bear Paws,3.84092511013216,8.59030837004405,227
+Walmart,Betty,4.37,68.5,20
+Walmart,Betty Bread,3.97,63.1428571428571,7
+Walmart,Betty Crocker,3.97,0.0,78
+Walmart,Beyond Meat,6.73119402985075,1.34328358208955,268
+Walmart,Bob's Red Mill,7.00312101910828,,157
+Walmart,Bon Matin,4.59222222222222,76.3333333333333,63
+Walmart,Boulangerie Grissol,3.73982142857143,0.0,112
+Walmart,CT Bakery,3.97,,16
+Walmart,Carbonaut,9.14494545454546,0.672489082969432,275
+Walmart,Chapman's Ice Cream,5.97,0.0,27
+Walmart,City Bread,3.27,68.0,26
+Walmart,Coofit,20.2466666666667,,15
+Walmart,Country Harvest,3.80395061728395,68.3333333333333,810
+Walmart,County Harvest,3.76008620689655,,928
+Walmart,Crispy,3.97,0.0,78
+Walmart,Curry Leaf,2.54,0.0,121
+Walmart,D'Italiano®,3.71791914387634,63.0,841
+Walmart,Daiya,9.39268041237113,0.77319587628866,97
+Walmart,Dempster's,3.75338090707263,59.9505233111323,3153
+Walmart,Dimpflmeier,3.83827906976744,71.3646511627907,1075
+Walmart,Dimpflmeier Bakery,3.97,87.0,311
+Walmart,Domqga,24.239375,,16
+Walmart,Duinkerken,5.68428571428571,0.0,84
+Walmart,E-DUINKERKEN,5.80098591549296,0.0,71
+Walmart,Elodie,14.4,,29
+Walmart,Flamingo,13.47,,20
+Walmart,Flatout,4.57,0.0,132
+Walmart,Fleischmann's,4.95571428571429,0.0,70
+Walmart,Frontier Bakery,2.38834170854271,90.0,398
+Walmart,Fufafayo,12.76,,6
+Walmart,Furlani,4.06641025641026,59.3560606060606,390
+Walmart,Fyydes,23.8923333333333,,30
+Walmart,Generic,21.8,,13
+Walmart,Golden Bakeshop,4.47,74.0,77
+Walmart,Goldilocks,5.97,,3
+Walmart,Great Value,5.22831778058008,34.243223707987,3965
+Walmart,Gupbes,24.8221052631579,,19
+Walmart,Hans Freitag,3.47,,42
+Walmart,Harvest Gold,2.97,44.0,103
+Walmart,High Liner,10.6038221153846,0.0,832
+Walmart,Home Made,3.97,69.0,6
+Walmart,JANES ultimates,14.98,,49
+Walmart,Janes,9.76006711409396,0.0,447
+Walmart,Jason,7.63666666666667,1.34166666666667,186
+Walmart,KAIYING,67.19,,16
+Walmart,KITTEHIGM,7.99,,3
+Walmart,Kamut,9.72,,13
+Walmart,Kasseler,4.27,0.0,2
+Walmart,LARABAR,17.47,,63
+Walmart,La Baguetterie,3.42577889447236,83.6363636363636,199
+Walmart,La Brioch,9.97,,2
+Walmart,Little Northern Bakehouse,7.89368421052631,0.0,76
+Walmart,Lunchables,3.97,,160
+Walmart,Maple Leaf,10.37,0.0,151
+Walmart,Mesase,36.71,,3
+Walmart,Mestemacher,4.33856842105263,86.9242105263158,475
+Walmart,Monde,1.37,0.0,110
+Walmart,More options from $18.98,20.48,,28
+Walmart,More options from $32.99,38.1328571428571,,14
+Walmart,More options from $33.99,41.6823076923077,,26
+Walmart,More options from $6.08,6.08,,1
+Walmart,Nutella,4.28102040816327,0.0,196
+Walmart,OUSITAID,32.71,,20
+Walmart,Ocean Jewel,9.96070175438597,,57
+Walmart,Ohh! Foods,3.49,,76
+Walmart,Oroweat,5.47,80.0,2
+Walmart,Our Finest,11.1894158075601,0.0,291
+Walmart,Out of stock,6.82294117647059,0.0,34
+Walmart,POM,4.35394160583942,69.7226277372263,137
+Walmart,Pereg,6.65040816326531,5.0,147
+Walmart,Pillsbury,4.6625,0.0,20
+Walmart,Portofino,5.47,82.390243902439,41
+Walmart,Prime,11.97,,372
+Walmart,Promise,7.97,0.0,187
+Walmart,Really Good,2.67,53.0,40
+Walmart,Robin Hood,8.2075,22.0,160
+Walmart,Rudolph’s,3.97,79.0,626
+Walmart,Ryvita,3.80858823529412,0.0658823529411765,425
+Walmart,SUTENGDA,36.71,,31
+Walmart,San J,8.8865306122449,0.0,49
+Walmart,Schar,7.07240825688073,0.0,872
+Walmart,School Safe,4.3587417218543,,151
+Walmart,Shana,2.46363957597173,41.0,283
+Walmart,Silver Hills,5.47631163708087,56.6141304347826,507
+Walmart,Skinny Mixes,6.66186440677966,,59
+Walmart,Snair's,2.88036363636364,59.5454545454545,55
+Walmart,Spptty,23.6554545454545,,22
+Walmart,St-Méthode,4.67944881889764,80.4126984126984,127
+Walmart,Stonefire® Authentic Flatbreads,3.31545454545455,46.469387755102,440
+Walmart,Stonemill,4.75922558922559,41.2464646464646,1485
+Walmart,Sun-Maid,5.0782304526749,5.06995884773663,243
+Walmart,TWI FOODS INC,2.97,74.0,143
+Walmart,Tau,5.79,,13
+Walmart,The Cheesecake Factory,4.97,94.0,825
+Walmart,Thomas,4.77296610169492,15.7888888888889,472
+Walmart,VILLAGGIO,3.88777871621622,61.5716096324461,2368
+Walmart,Villa Di Manno Bakery,3.97,,196
+Walmart,Vitavigor,1.97,0.0,45
+Walmart,Voortman,3.44723684210526,2.44736842105263,76
+Walmart,Walkers,3.68742857142857,0.0,350
+Walmart,Wasa,3.77,0.0,587
+Walmart,Weight Watchers,4.57,0.0,97
+Walmart,Wonder,3.16149888143177,,1341
+Walmart,Yorkshire Valley Farms,15.97,,1
+Walmart,Your Fresh Market,3.65712059620596,28.7842741935484,1476
+Walmart,Yumi,3.97,0.0,94
+Walmart,Yves,6.52239130434783,0.0,460
+Walmart,ZZkhGo,5.97,,20
+Walmart,Zabiha Halal,10.97,,274
+Walmart,crgrtght,17.99,,24
+Walmart,error,,,1
+Walmart,kttectoa,13.99,,14
