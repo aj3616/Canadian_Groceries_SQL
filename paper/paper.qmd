@@ -1,13 +1,21 @@
 ---
+<<<<<<< HEAD
 title: ""
 subtitle: "My subtitle if needed"
+=======
+title: "Canadian Bread Price Variations Across Vendors"
+subtitle: "An Observational Study on Pricing Trends and Data Limitations"
+>>>>>>> c826bdf8416da385354b87df79d4b8b68993d41f
 author: 
-  - First author
-  - Another author
+  - Amy Jin
+  - Diana Shen
+  - Maggie Zhang 
+  - Claire Chang
+  
 thanks: "Code and data are available at: https://github.com/aj3616/Canadian_Groceries_SQL/tree/main"
 date: today
 date-format: long
-abstract: "First sentence. Second sentence. Third sentence. Fourth sentence."
+abstract: "This study analyzes the average price of bread across various vendors to understand pricing trends and highlight differences in consumer costs. By examining observational data, we found notable variations in bread prices between vendors, with some consistently offering higher or lower prices. These findings shed light on how vendor practices, product offerings, and possible external factors can impact bread affordability. Understanding these price variations is important for consumers seeking cost-effective options and for stakeholders aiming to address pricing disparities in everyday essentials."
 format: pdf
 number-sections: true
 bibliography: references.bib
@@ -25,23 +33,26 @@ library(gt)
 
 # Introduction
 
-Overview paragraph
+Bread is a staple food item across households, and understanding price variations among different vendors can provide insights into the accessibility and affordability of basic food products. This study aims to examine the average price of bread across various vendors in Canada to identify patterns and potential disparities in pricing. Using data on both overall average prices and per-unit prices (where available), we assess how bread pricing differs between vendors and highlight the factors that may contribute to these differences.
 
-Estimand paragraph
+The primary estimand in this analysis is the average price of bread offered by each vendor. Additionally, for vendors that provide per-unit pricing, the analysis includes the average unit price, which helps standardize cost comparisons across varying product sizes and quantities. The focus on vendor-based pricing provides a granular view of how pricing might vary by store brand and supply chain factors.
 
-Results paragraph
+<<<<<<< HEAD
+=======
+Our results indicate a noticeable range in average bread prices across vendors. For instance, Walmart exhibits the highest average bread price among the surveyed vendors, while Voila offers the lowest average price. However, the availability of unit prices is limited, with only Walmart providing sufficient data to calculate an average per-unit price. This lack of unit price data highlights a gap in the dataset, suggesting inconsistencies in reporting or data availability across different vendors.
 
-Why it matters paragraph
+Understanding these variations in bread prices matters for consumers and policymakers alike. For consumers, awareness of price disparities between vendors can guide more cost-effective shopping decisions. For policymakers, identifying patterns in food pricing could support initiatives aimed at improving food affordability and accessibility. By shedding light on vendor-based pricing differences, this study contributes to broader discussions on food cost dynamics and potential areas for consumer advocacy.
 
-Telegraphing paragraph: The remainder of this paper is structured as follows. @sec-data....
+The remainder of this paper is structured as follows. @sec-data discusses the data used for this analysis, including key variables and sources, with particular attention to the quality metrics that affect polling accuracy. @sec-models outlines our modeling approach for each candidate, incorporating lessons learned from recent electoral cycles. Our predictions are under section of each model. Finally, our @sec-results discusses the implications of our findings and suggests directions for future research by addressing three critical aspects: correlation vs. causation, missing data, and sources of bias.
 
+
+
+>>>>>>> c826bdf8416da385354b87df79d4b8b68993d41f
 # Data {#sec-data}
 
 ## Overview
 
-We use the statistical programming language R [@citeR].... Our data [@filipp2024hammer].... Following @tellingstories, we consider...
-
-Overview text
+We use the programming language R [@citeR] to analyze and visualize our data, which allows us to make clear graphs and summaries. Our data comes from a recent study on grocery prices in Canada [@filipp2024hammer], providing detailed information about bread prices at different stores. Following the approach in Telling Stories with Data [@tellingstories], we look at price patterns by store and consider what they mean for shoppers and decision-makers.
 
 ## Measurement
 
@@ -49,6 +60,7 @@ Some paragraphs about how we go from a phenomena in the world to an entry in the
 
 ## Outcome variables
 
+<<<<<<< HEAD
 Some of our data is of penguins (@fig-bills), from @palmerpenguins.
 
 ```{r}
@@ -77,6 +89,13 @@ analysis_data |>
 ```
 
 Talk way more about it.
+=======
+Add graphs, tables and text. Use sub-sub-headings for each outcome variable or update the subheading to be singular.
+
+
+Talk more about it.
+
+>>>>>>> c826bdf8416da385354b87df79d4b8b68993d41f
 
 ## Predictor variables
 
@@ -84,7 +103,12 @@ Add graphs, tables and text.
 
 Use sub-sub-headings for each outcome variable and feel free to combine a few into one if they go together naturally.
 
+<<<<<<< HEAD
 # Model
+=======
+
+# Model {#sec-models}
+>>>>>>> c826bdf8416da385354b87df79d4b8b68993d41f
 
 The goal of our modelling strategy is twofold. Firstly,...
 
@@ -112,6 +136,7 @@ We expect a positive relationship between the size of the wings and time spent a
 
 We can use maths by including latex between dollar signs, for instance $\theta$.
 
+<<<<<<< HEAD
 # Results
 
 The chart @fig-avgprice demonstrate average price for bread among different vendors This show that Walmart is the vendor of highest price of bread.
@@ -173,6 +198,12 @@ vendor_summary_table
 
 ```
 
+=======
+
+# Results {#sec-results}
+
+
+>>>>>>> c826bdf8416da385354b87df79d4b8b68993d41f
 # Discussion
 
 ## First discussion point {#sec-first-point}
@@ -191,4 +222,25 @@ Weaknesses and next steps should also be included.
 
 \newpage
 
+<<<<<<< HEAD
+=======
+\appendix
+
+# Appendix {-}
+
+
+# Additional data details
+
+# Model details {#sec-model-details}
+
+## Posterior predictive check
+
+## Diagnostics
+
+
+
+\newpage
+
+
+>>>>>>> c826bdf8416da385354b87df79d4b8b68993d41f
 # References
