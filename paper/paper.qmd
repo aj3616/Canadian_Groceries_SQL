@@ -1,5 +1,5 @@
 ---
-title: "My title"
+title: ""
 subtitle: "My subtitle if needed"
 author: 
   - First author
@@ -19,13 +19,9 @@ bibliography: references.bib
 #| message: false
 
 library(tidyverse)
-<<<<<<< HEAD
 library(ggplot2)
-=======
 library(gt)
->>>>>>> 5f7f29bb8fd13a9bd4ad44fd4b6062f17b6e1bb4
 ```
-
 
 # Introduction
 
@@ -39,11 +35,6 @@ Why it matters paragraph
 
 Telegraphing paragraph: The remainder of this paper is structured as follows. @sec-data....
 
-
-
-
-
-
 # Data {#sec-data}
 
 ## Overview
@@ -53,13 +44,13 @@ We use the statistical programming language R [@citeR].... Our data [@filipp2024
 Overview text
 
 ## Measurement
-	
+
 Some paragraphs about how we go from a phenomena in the world to an entry in the dataset.
 
 ## Outcome variables
 
-
 Some of our data is of penguins (@fig-bills), from @palmerpenguins.
+
 ```{r}
 
 ```
@@ -85,20 +76,13 @@ analysis_data |>
        y = "Wing length (mm)")
 ```
 
-Talk way more about it. 
+Talk way more about it.
 
 ## Predictor variables
 
 Add graphs, tables and text.
 
 Use sub-sub-headings for each outcome variable and feel free to combine a few into one if they go together naturally.
-
-
-
-
-
-
-
 
 # Model
 
@@ -108,8 +92,9 @@ Here we briefly describe the Bayesian analysis model used to investigate... Back
 
 ## Model set-up
 
-Define $y_i$ as the number of seconds that the plane remained aloft. Then $\beta_i$ is the wing width and $\gamma_i$ is the wing length, both measured in millimeters.  
+Define $y_i$ as the number of seconds that the plane remained aloft. Then $\beta_i$ is the wing width and $\gamma_i$ is the wing length, both measured in millimeters.
 
+```{=tex}
 \begin{align} 
 y_i|\mu_i, \sigma &\sim \mbox{Normal}(\mu_i, \sigma) \\
 \mu_i &= \alpha + \beta_i + \gamma_i\\
@@ -118,9 +103,8 @@ y_i|\mu_i, \sigma &\sim \mbox{Normal}(\mu_i, \sigma) \\
 \gamma &\sim \mbox{Normal}(0, 2.5) \\
 \sigma &\sim \mbox{Exponential}(1)
 \end{align}
-
+```
 We run the model in R [@citeR] using the `rstanarm` package of @rstanarm. We use the default priors from `rstanarm`.
-
 
 ### Model justification
 
@@ -128,9 +112,10 @@ We expect a positive relationship between the size of the wings and time spent a
 
 We can use maths by including latex between dollar signs, for instance $\theta$.
 
-
 # Results
+
 The chart @fig-avgprice demonstrate average price for bread among different vendors This show that Walmart is the vendor of highest price of bread.
+
 ```{r}
 #| label: fig-avgprice
 #| fig-cap: Average Price for Bread amoung different vender. This show that Walmart is the vendor of highest price of bread.
@@ -150,20 +135,6 @@ ggplot(brand_price, aes(x = vendor, y = overall_avg_price, fill = vendor)) +
 ```
 
 Our results are summarized in @tbl-modelresults.
-
-<<<<<<< HEAD
-=======
-```{r}
-#| echo: false
-#| eval: true
-#| warning: false
-#| message: false
-
-library(rstanarm)
-
-first_model <-
-  readRDS(file = here::here("models/first_model.rds"))
-```
 
 ```{r}
 #| echo: false
@@ -201,16 +172,12 @@ vendor_summary_table <- vendor_summary %>%
 vendor_summary_table
 
 ```
->>>>>>> 5f7f29bb8fd13a9bd4ad44fd4b6062f17b6e1bb4
-
-
-
 
 # Discussion
 
 ## First discussion point {#sec-first-point}
 
-If my paper were 10 pages, then should be be at least 2.5 pages. The discussion is a chance to show off what you know and what you learnt from all this. 
+If my paper were 10 pages, then should be be at least 2.5 pages. The discussion is a chance to show off what you know and what you learnt from all this.
 
 ## Second discussion point
 
@@ -222,10 +189,6 @@ Please don't use these as sub-heading labels - change them to be what your point
 
 Weaknesses and next steps should also be included.
 
-
 \newpage
 
-
 # References
-
-
