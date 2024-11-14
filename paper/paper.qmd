@@ -44,9 +44,7 @@ The remainder of this paper is structured as follows. @sec-data discusses the da
 
 ## Overview
 
-We use the statistical programming language R [@citeR].... Our data [@filipp2024hammer].... Following @tellingstories, we consider...
-
-Overview text
+We use the programming language R [@citeR] to analyze and visualize our data, which allows us to make clear graphs and summaries. Our data comes from a recent study on grocery prices in Canada [@filipp2024hammer], providing detailed information about bread prices at different stores. Following the approach in Telling Stories with Data [@tellingstories], we look at price patterns by store and consider what they mean for shoppers and decision-makers.
 
 ## Measurement
 	
