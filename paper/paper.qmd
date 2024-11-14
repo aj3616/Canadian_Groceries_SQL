@@ -1,11 +1,6 @@
 ---
-<<<<<<< HEAD
-title: ""
-subtitle: "My subtitle if needed"
-=======
 title: "Canadian Bread Price Variations Across Vendors"
 subtitle: "An Observational Study on Pricing Trends and Data Limitations"
->>>>>>> c826bdf8416da385354b87df79d4b8b68993d41f
 author: 
   - Amy Jin
   - Diana Shen
@@ -27,9 +22,12 @@ bibliography: references.bib
 #| message: false
 
 library(tidyverse)
-library(ggplot2)
 library(gt)
+library(readr)
+library(ggplot2)
+library(here)
 ```
+
 
 # Introduction
 
@@ -37,17 +35,13 @@ Bread is a staple food item across households, and understanding price variation
 
 The primary estimand in this analysis is the average price of bread offered by each vendor. Additionally, for vendors that provide per-unit pricing, the analysis includes the average unit price, which helps standardize cost comparisons across varying product sizes and quantities. The focus on vendor-based pricing provides a granular view of how pricing might vary by store brand and supply chain factors.
 
-<<<<<<< HEAD
-=======
 Our results indicate a noticeable range in average bread prices across vendors. For instance, Walmart exhibits the highest average bread price among the surveyed vendors, while Voila offers the lowest average price. However, the availability of unit prices is limited, with only Walmart providing sufficient data to calculate an average per-unit price. This lack of unit price data highlights a gap in the dataset, suggesting inconsistencies in reporting or data availability across different vendors.
 
 Understanding these variations in bread prices matters for consumers and policymakers alike. For consumers, awareness of price disparities between vendors can guide more cost-effective shopping decisions. For policymakers, identifying patterns in food pricing could support initiatives aimed at improving food affordability and accessibility. By shedding light on vendor-based pricing differences, this study contributes to broader discussions on food cost dynamics and potential areas for consumer advocacy.
 
-The remainder of this paper is structured as follows. @sec-data discusses the data used for this analysis, including key variables and sources, with particular attention to the quality metrics that affect polling accuracy. @sec-models outlines our modeling approach for each candidate, incorporating lessons learned from recent electoral cycles. Our predictions are under section of each model. Finally, our @sec-results discusses the implications of our findings and suggests directions for future research by addressing three critical aspects: correlation vs. causation, missing data, and sources of bias.
+The remainder of this paper is structured as follows. @sec-data discusses the data used for this analysis, including key variables and sources, with particular attention to the quality metrics that affect polling accuracy. @sec-results contains the graphs and tables of our findings. Finally, our @sec-results discusses the implications of our findings and suggests directions for future research by addressing three critical aspects: correlation vs. causation, missing data, and sources of bias.
 
 
-
->>>>>>> c826bdf8416da385354b87df79d4b8b68993d41f
 # Data {#sec-data}
 
 ## Overview
@@ -55,142 +49,18 @@ The remainder of this paper is structured as follows. @sec-data discusses the da
 We use the programming language R [@citeR] to analyze and visualize our data, which allows us to make clear graphs and summaries. Our data comes from a recent study on grocery prices in Canada [@filipp2024hammer], providing detailed information about bread prices at different stores. Following the approach in Telling Stories with Data [@tellingstories], we look at price patterns by store and consider what they mean for shoppers and decision-makers.
 
 ## Measurement
-
+	
 Some paragraphs about how we go from a phenomena in the world to an entry in the dataset.
 
-## Outcome variables
-
-<<<<<<< HEAD
-Some of our data is of penguins (@fig-bills), from @palmerpenguins.
-
-```{r}
-
-```
-
-
-Talk way more about it.
-=======
-Add graphs, tables and text. Use sub-sub-headings for each outcome variable or update the subheading to be singular.
-
-
-Talk more about it.
-
->>>>>>> c826bdf8416da385354b87df79d4b8b68993d41f
-
-## Predictor variables
-
-Add graphs, tables and text.
-
-Use sub-sub-headings for each outcome variable and feel free to combine a few into one if they go together naturally.
-
-<<<<<<< HEAD
-# Model
-=======
-
-# Model {#sec-models}
->>>>>>> c826bdf8416da385354b87df79d4b8b68993d41f
-
-The goal of our modelling strategy is twofold. Firstly,...
-
-Here we briefly describe the Bayesian analysis model used to investigate... Background details and diagnostics are included in [Appendix -@sec-model-details].
-
-## Model set-up
-
-Define $y_i$ as the number of seconds that the plane remained aloft. Then $\beta_i$ is the wing width and $\gamma_i$ is the wing length, both measured in millimeters.
-
-```{=tex}
-\begin{align} 
-y_i|\mu_i, \sigma &\sim \mbox{Normal}(\mu_i, \sigma) \\
-\mu_i &= \alpha + \beta_i + \gamma_i\\
-\alpha &\sim \mbox{Normal}(0, 2.5) \\
-\beta &\sim \mbox{Normal}(0, 2.5) \\
-\gamma &\sim \mbox{Normal}(0, 2.5) \\
-\sigma &\sim \mbox{Exponential}(1)
-\end{align}
-```
-We run the model in R [@citeR] using the `rstanarm` package of @rstanarm. We use the default priors from `rstanarm`.
-
-### Model justification
-
-We expect a positive relationship between the size of the wings and time spent aloft. In particular...
-
-We can use maths by including latex between dollar signs, for instance $\theta$.
-
-<<<<<<< HEAD
-# Results
-
-The chart @fig-avgprice demonstrate average price for bread among different vendors This show that Walmart is the vendor of highest price of bread.
-
-```{r}
-#| label: fig-avgprice
-#| fig-cap: Average Price for Bread amoung different vender. This show that Walmart is the vendor of highest price of bread.
-#| echo: false
-#| warning: false
-#| message: false
- 
-brand_price <- read_csv("~/Canadian_Groceries_SQL/data/02-analysis_data/temp.vendor_summary.csv")
-
-ggplot(brand_price, aes(x = vendor, y = overall_avg_price, fill = vendor)) +
-  geom_bar(stat = "identity") +
-  geom_text(aes(label = round(overall_avg_price, 2)), vjust = -0.5) +  
-  labs(x = "Vendor", y = "Average Price for Bread") +
-  theme_minimal() +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
-  scale_fill_brewer(palette = "Set3") 
-```
-
-Our results are summarized in @tbl-modelresults.
-
-```{r}
-#| echo: false
-#| eval: true
-#| label: tbl-vendor_summary
-#| tbl-cap: "Vendor Summary-Overall Average Price and Unit Price by Vendor"
-#| warning: false
-
-
-
-# Load the data
-vendor_summary <- read_csv("~/Canadian_Groceries_SQL/data/02-analysis_data/temp.vendor_summary.csv")
-
-# Create a formatted table
-vendor_summary_table <- vendor_summary %>%
-  gt() %>%
-  cols_label(
-    vendor = "Vendor",
-    overall_avg_price = "Average Price ($)",
-    overall_avg_unit_price = "Average Unit Price ($)"
-  ) %>%
-  fmt_number(
-    columns = c(overall_avg_price, overall_avg_unit_price),
-    decimals = 2
-  ) %>%
-  tab_style(
-    style = cell_text(weight = "bold"),
-    locations = cells_column_labels(columns = everything())
-  ) %>%
-  tab_source_note(
-    source_note = "Data source: data/02-analysis_data/temp.vendor_summary.csv"
-  )
-
-# Print the table
-vendor_summary_table
-
-```
-
-=======
 
 # Results {#sec-results}
 
 ```{r}
+#| label: fig-price
+#| fig-cap: Overall Average Price
 #| echo: false
-#| eval: true
-#| label: tbl-vendor_summary
-#| tbl-cap: "Vendor Summary-Overall Average Price and Unit Price by Vendor"
-#| warning: false
 
-
-brand_price <- read_csv("~/Canadian_Groceries_SQL/data/02-analysis_data/temp.vendor_summary.csv")
+brand_price <- read_csv(here("~/Downloads/Canadian_Groceries_SQL-main/data/02-analysis_data/temp.vendor_summary.csv"))
 
 ggplot(brand_price, aes(x = vendor, y = overall_avg_price, fill = vendor)) +
   geom_bar(stat = "identity") +
@@ -201,12 +71,13 @@ ggplot(brand_price, aes(x = vendor, y = overall_avg_price, fill = vendor)) +
   scale_fill_brewer(palette = "Set3") 
 ```
 
->>>>>>> c826bdf8416da385354b87df79d4b8b68993d41f
-# Discussion
+
+# Discussion {#sec-discuss}
+
 
 ## First discussion point {#sec-first-point}
 
-If my paper were 10 pages, then should be be at least 2.5 pages. The discussion is a chance to show off what you know and what you learnt from all this.
+If my paper were 10 pages, then should be be at least 2.5 pages. The discussion is a chance to show off what you know and what you learnt from all this. 
 
 ## Second discussion point
 
@@ -220,8 +91,6 @@ Weaknesses and next steps should also be included.
 
 \newpage
 
-<<<<<<< HEAD
-=======
 \appendix
 
 # Appendix {-}
@@ -240,5 +109,6 @@ Weaknesses and next steps should also be included.
 \newpage
 
 
->>>>>>> c826bdf8416da385354b87df79d4b8b68993d41f
 # References
+
+
