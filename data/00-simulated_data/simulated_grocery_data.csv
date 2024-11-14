@@ -1,0 +1,101 @@
+product_id,vendor,brand,product_name,current_price,old_price,price_per_unit
+1,Loblaws,Silver Hills,White Bread,1.61,3.48,0.92
+2,Voila,Silver Hills,White Bread,2.16,1.67,1.75
+3,Loblaws,Sara Lee,Whole Wheat Bread,4.62,4.35,3.54
+4,Voila,Dempster's,Sourdough Bread,2.07,4.39,1.33
+5,Loblaws,Villaggio,White Bread,3.22,3.41,2.79
+6,NoFrills,Dempster's,Whole Wheat Bread,1.91,1.93,1.25
+7,Metro,Sara Lee,Sourdough Bread,2.48,5.21,1.84
+8,Metro,Sunbeam,Multigrain Bread,2.82,4.73,2.49
+9,Voila,Stonemill,White Bread,4.76,1.86,2.76
+10,Galleria,Wonder,Sourdough Bread,4.32,2.29,2.18
+11,Walmart,Sunbeam,Whole Wheat Bread,4.43,2.86,2.54
+12,Galleria,Sunbeam,Multigrain Bread,3.56,3.77,1.99
+13,TandT,Stonemill,Sourdough Bread,2.69,2.38,1.61
+14,SaveOnFoods,Sara Lee,Sourdough Bread,4.63,4.96,2.32
+15,TandT,Wonder,Whole Wheat Bread,2.7,3.56,1.43
+16,Galleria,Sara Lee,Whole Wheat Bread,4.17,2.94,2.33
+17,Voila,Sunbeam,White Bread,1.58,5.64,1.21
+18,Voila,Wonder,Sourdough Bread,3.21,5.29,2.14
+19,Galleria,Silver Hills,White Bread,1.8,5.32,1.17
+20,Metro,Sunbeam,Sourdough Bread,4.11,4.12,3.96
+21,Loblaws,Silver Hills,Whole Wheat Bread,1.9,1.63,1.13
+22,Loblaws,Sara Lee,Whole Wheat Bread,3.55,4.81,1.91
+23,TandT,Sara Lee,White Bread,1.63,3.43,0.9
+24,Metro,Dempster's,Sourdough Bread,1.79,5.31,0.96
+25,Galleria,Villaggio,White Bread,2.3,3.94,1.18
+26,Voila,Silver Hills,Whole Wheat Bread,3.32,4.66,2.85
+27,Metro,Silver Hills,Multigrain Bread,2.24,2.29,1.6
+28,NoFrills,Country Harvest,White Bread,4.87,5.52,3.37
+29,NoFrills,Villaggio,Multigrain Bread,4.32,5.09,2.77
+30,Loblaws,Sunbeam,Whole Wheat Bread,2.41,3.67,1.5
+31,Loblaws,Dempster's,Whole Wheat Bread,2.21,5.64,1.17
+32,SaveOnFoods,Wonder,Multigrain Bread,2.98,5.15,1.8
+33,Voila,Sara Lee,White Bread,1.8,5.7,0.99
+34,Loblaws,Villaggio,Multigrain Bread,3.01,1.56,1.77
+35,TandT,Stonemill,Sourdough Bread,2.26,3.23,1.26
+36,Loblaws,Sunbeam,Sourdough Bread,2.05,4.42,1.13
+37,SaveOnFoods,Sunbeam,White Bread,2.47,1.61,1.34
+38,Walmart,Stonemill,Whole Wheat Bread,4.57,5.75,3.98
+39,Voila,Stonemill,Multigrain Bread,2.01,2.6,1.61
+40,Metro,Sara Lee,White Bread,2.32,3.82,1.2
+41,Voila,Wonder,Sourdough Bread,1.57,3.93,1.22
+42,Walmart,Dempster's,Sourdough Bread,4.63,5.47,2.7
+43,Walmart,Sunbeam,Sourdough Bread,1.66,2.79,1.43
+44,Loblaws,Wonder,Whole Wheat Bread,3.94,4.31,2.06
+45,Galleria,Sunbeam,White Bread,1.57,4.17,0.9
+46,TandT,Sunbeam,Multigrain Bread,3.42,5.23,3.16
+47,Voila,Sunbeam,Whole Wheat Bread,3.2,3.01,2.16
+48,SaveOnFoods,Wonder,White Bread,1.95,3.63,1.11
+49,Voila,Silver Hills,Sourdough Bread,4.73,5.42,4.42
+50,TandT,Silver Hills,Multigrain Bread,4.64,3.52,2.44
+51,SaveOnFoods,Wonder,White Bread,4.28,3.42,2.91
+52,NoFrills,Sunbeam,Multigrain Bread,3.26,5.17,2.31
+53,Metro,Sara Lee,White Bread,2.21,5.75,1.38
+54,Metro,Sunbeam,White Bread,2.01,4.93,1.26
+55,Galleria,Wonder,White Bread,1.55,2.59,0.83
+56,Galleria,Country Harvest,Sourdough Bread,4.66,3.84,2.39
+57,Metro,Sunbeam,Sourdough Bread,2.01,2.54,1.11
+58,Voila,Wonder,Multigrain Bread,4.08,3.35,2.89
+59,Metro,Country Harvest,White Bread,1.78,2.02,1.19
+60,Loblaws,Stonemill,Multigrain Bread,2.6,2.89,1.72
+61,Loblaws,Wonder,White Bread,2.77,1.79,2.1
+62,NoFrills,Silver Hills,White Bread,2.11,4.63,1.18
+63,Metro,Country Harvest,Multigrain Bread,1.77,2.8,0.9
+64,SaveOnFoods,Country Harvest,Sourdough Bread,4.64,2.89,3.06
+65,NoFrills,Stonemill,Whole Wheat Bread,4.07,1.83,3.66
+66,Metro,Stonemill,Sourdough Bread,4.74,4.21,2.85
+67,SaveOnFoods,Country Harvest,Sourdough Bread,3.11,4.52,1.68
+68,Galleria,Wonder,Sourdough Bread,4.43,5.05,3.14
+69,Metro,Wonder,Multigrain Bread,1.7,5.72,1.6
+70,Metro,Stonemill,Whole Wheat Bread,4.54,5.63,2.94
+71,Galleria,Stonemill,Whole Wheat Bread,3.82,5.17,3.07
+72,Loblaws,Silver Hills,Multigrain Bread,3.65,3.14,2.62
+73,Galleria,Silver Hills,White Bread,4.1,4.74,2.47
+74,NoFrills,Wonder,Multigrain Bread,3.47,2.43,3.23
+75,Metro,Dempster's,Sourdough Bread,2.61,5.14,1.45
+76,Voila,Country Harvest,Whole Wheat Bread,4.61,2.5,3.03
+77,Galleria,Dempster's,Sourdough Bread,2.82,3.32,1.99
+78,Loblaws,Villaggio,Multigrain Bread,2.39,2.65,1.86
+79,Loblaws,Dempster's,Multigrain Bread,4.64,4.46,3.28
+80,Loblaws,Sunbeam,Sourdough Bread,4.34,2.49,3.1
+81,Metro,Wonder,Whole Wheat Bread,4.12,2.47,2.41
+82,Voila,Silver Hills,Multigrain Bread,3.15,3.5,2.79
+83,NoFrills,Sara Lee,Whole Wheat Bread,1.87,4.12,1.06
+84,NoFrills,Sara Lee,Multigrain Bread,3.35,1.83,1.73
+85,NoFrills,Sunbeam,Multigrain Bread,3.49,2.08,2.69
+86,TandT,Silver Hills,White Bread,4.06,4.74,2.21
+87,Loblaws,Silver Hills,White Bread,4.84,2.47,2.66
+88,Voila,Silver Hills,White Bread,3.73,4.24,2.35
+89,Loblaws,Stonemill,White Bread,3.5,2.4,3.34
+90,NoFrills,Sunbeam,Multigrain Bread,3.29,5.33,2.42
+91,Metro,Wonder,Sourdough Bread,1.81,3.74,1.48
+92,Galleria,Sunbeam,White Bread,4.33,2.5,2.3
+93,Walmart,Sunbeam,White Bread,3.19,1.99,3.19
+94,Loblaws,Wonder,Multigrain Bread,2,5.86,1.35
+95,Loblaws,Wonder,Sourdough Bread,2.39,5.74,2.19
+96,TandT,Silver Hills,Multigrain Bread,2.54,5.81,1.62
+97,SaveOnFoods,Dempster's,Whole Wheat Bread,3.74,3.04,1.99
+98,Walmart,Sunbeam,Whole Wheat Bread,2.36,1.93,1.95
+99,TandT,Sunbeam,Multigrain Bread,3.68,2.64,2.33
+100,Galleria,Sunbeam,Sourdough Bread,3.41,2.69,2.09
