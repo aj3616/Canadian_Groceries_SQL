@@ -1,30 +1,26 @@
-# Starter folder
+# Canadian Grocery Data Analysis
 
 ## Overview
 
-This repo provides students with a foundation for their own projects associated with *Telling Stories with Data*. You do not need every aspect for every paper and you should delete aspects that you do not need.
-
+This repository provides a foundation for analyzing Canadian grocery pricing and vendor data. The project focuses on understanding vendor pricing patterns and brand representation across various grocery products in Canada. A key focus of the analysis is identifying whether there is a vendor that consistently offers the cheapest essential product: bread. Students can adapt and expand this structure for their own data analysis projects.
 
 ## File Structure
 
-The repo is structured as:
+The repository is structured as follows:
 
--   `data/raw_data` contains the raw data as obtained from X.
--   `data/analysis_data` contains the cleaned dataset that was constructed.
--   `model` contains fitted models. 
--   `other` contains relevant literature, details about LLM chat interactions, and sketches.
--   `paper` contains the files used to generate the paper, including the Quarto document and reference bibliography file, as well as the PDF of the paper. 
--   `scripts` contains the R scripts used to simulate, download and clean data.
+-   `data/raw_data` contains the raw data, including vendor and pricing information in csv. Data was cleaned using D Browser for sqlite , however, the sqlite file was too large to be uploaded, so two csv files contained the same data was uploaded
+-   `data/analysis_data` contains cleaned datasets prepared for analysis.
+-   `other` contains additional materials such as relevant literature, exploratory notes, and sketches.
+-   `paper` contains files for generating the final report, including Quarto documents, reference bibliographies, and PDFs of the analysis paper.
+-   `scripts` contains R scripts for data simulation, cleaning, and analysis.
+
+## Statement on LLM Usage
+
+Aspects of the code and the writings were developed with the assistance of ChatGPT4o. Including developing test cases, checking SQL syntax, and writing grammar polishments.
+
+All interactions and generated content have been documented in `other/llm_usage/usage.txt`.
 
 
-## Statement on LLM usage
+## Purpose
 
-Aspects of the code were written with the help of the auto-complete tool, Codriver. The abstract and introduction were written with the help of ChatHorse and the entire chat history is available in inputs/llms/usage.txt.
-
-## Some checks
-
-- [ ] Change the rproj file name so that it's not starter_folder.Rproj
-- [ ] Change the README title so that it's not Starter folder
-- [ ] Remove files that you're not using
-- [ ] Update comments in R scripts
-- [ ] Remove this checklist
+This repository is designed to enable the exploration of pricing differences among Canadian grocery vendors and the representation of popular brands in the market. The analysis heavily relies on SQL for querying and analyzing data, particularly to identify pricing trends. The primary research question investigates whether a specific vendor offers the cheapest price for essential products like bread. The insights derived can inform consumer choices and contribute to broader discussions on pricing fairness and market trends in the Canadian grocery industry.
