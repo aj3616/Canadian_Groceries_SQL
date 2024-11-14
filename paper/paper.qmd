@@ -50,8 +50,9 @@ We use the programming language R [@citeR] to analyze and visualize our data, wh
 
 ## Measurement
 	
-Some paragraphs about how we go from a phenomena in the world to an entry in the dataset.
+This study translates real-world bread prices from various Canadian vendors into a structured dataset for analysis. Each entry represents the average price of bread at a vendor, aggregated from observed prices to facilitate comparison across stores. Where available, unit prices (e.g., per kilogram or loaf) were also recorded to allow standardized comparisons despite differences in packaging sizes.
 
+The data captures typical prices without including promotional discounts, providing a snapshot of regular bread costs across vendors. However, limitations arise due to missing unit prices from some vendors and the dataset’s single-time snapshot, which may not account for seasonal fluctuations. Despite these limitations, this dataset offers valuable insights into bread pricing patterns across vendors.
 
 # Results {#sec-results}
 
@@ -77,17 +78,14 @@ ggplot(Brand_price, aes(x = vendor, y = overall_avg_price, fill = vendor)) +
 
 
 
-
 # Discussion {#sec-discuss}
 
 
 ## Correlation vs. Causation {#sec-first-point}
 
-If my paper were 10 pages, then should be be at least 2.5 pages. The discussion is a chance to show off what you know and what you learnt from all this. 
 
 ## Missing data  {#sec-second-point}
 
-Please don't use these as sub-heading labels - change them to be what your point actually is.
 
 ## Sources of bias  {#sec-third-point}
 
