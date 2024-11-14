@@ -6,7 +6,6 @@ author:
   - Diana Shen
   - Maggie Zhang 
   - Claire Chang
-  
 thanks: "Code and data are available at: https://github.com/aj3616/Canadian_Groceries_SQL/tree/main"
 date: today
 date-format: long
@@ -56,11 +55,12 @@ The data captures typical prices without including promotional discounts, provid
 
 # Results {#sec-results}
 
-The chart @fig-avgprice demonstrates the average price for bread among different vendors This shows that Walmart is the vendor of the highest price of bread.
+The chart @fig-avgprice demonstrates the average price for bread among different vendors, this shows that Walmart is the vendor with the highest price of bread.
+
 
 ```{r}
 #| label: fig-avgprice
-#| fig-cap: Average Price for Bread amoung different vender. This show that Walmart is the vendor of the highest price of bread.
+#| fig-cap: Average Price for Bread among different vendors. This shows that Walmart is the vendor of the highest price of bread.
 #| echo: false
 #| warning: false
 #| message: false
@@ -83,20 +83,23 @@ ggplot(Brand_price, aes(x = vendor, y = overall_avg_price, fill = vendor)) +
 
 ## Correlation vs. Causation {#sec-first-point}
 
-In analyzing the pricing data of bread across different vendors, we are constantly differentiating correlation and causation to draw non-misleading conclusions. In this case, we are primarily examining correlations between variables, but without enough evidence and experimental design, we are conscious not to overstate causal relationships. For example, our analysis shows that bread prices are higher at certain vendors like Walmart compared to Voila. However, we are aware that this is only a correlation; the price differences could arise from a variety of reasons, including business models, and promotional offerings, rather than a direct cause-and-effect relationship. If we were to argue that price increases in bread are caused by rising transportation costs from the vendor to the selling company, we would need to include more information in our data set and introduce transportation costs as control variables to observe changes in the dependent variable, which in this case is price.
+In analysing the pricing data of bread across different vendors, we are constantly differentiating correlation and causation to draw non-misleading conclusions. In this case, we are primarily examining correlations between variables, but without enough evidence and experimental design, we are conscious not to overstate causal relationships. For example, our analysis shows that bread prices are higher at certain vendors like Walmart compared to Voila. However, we are aware that this is only a correlation; the price differences could arise from a variety of reasons, including business models, and promotional offerings, rather than a direct cause-and-effect relationship. If we were to argue that price increases in bread are caused by rising transportation costs from the vendor to the selling company, we would need to include more information in our dataset and introduce transportation costs as control variables to observe changes in the dependent variable, which in this case is price.
+
 
 ## Missing data  {#sec-second-point}
-Missing data is an issue in our current data set and introduces challenges in conducting a comprehensive analysis. Specifically, the data set contains missing values in key variables, such as:
-Brand Information for Bread: Some records lack information on the bread brand, which limits the ability to analyze price differences between brands. Complete brand data could reveal patterns specific to certain brands and help us understand whether certain brands tend to be priced higher or lower than others. Without this information, the analysis is restricted to vendor-based comparisons, rather than offering insights into brand-specific pricing strategies. This is why we chose to rely on average pricing for our final conclusion.
+Missing data is an issue in our current data set and introduces challenges in conducting a comprehensive analysis. Specifically, the dataset contains missing values in key variables, such as: Brand Information for Bread: Some records lack information on the bread brand, which limits the ability to analyse price differences between brands. Complete brand data could reveal patterns specific to certain brands and help us understand whether certain brands tend to be priced higher or lower than others. Without this information, the analysis is restricted to vendor-based comparisons, rather than offering insights into brand-specific pricing strategies. This is why we chose to rely on average pricing for our final conclusion.
 Old Price Data for Bread: Another key piece of missing data is the previous price for certain bread items. This prevents us from assessing how vendors adjust bread prices over time, which could be important in understanding pricing trends. The lack of this historical price data limits our ability to observe seasonal changes, inflation effects, or shifts in supply chain costs that might influence pricing behaviour.
 But despite these data being missing, the current analysis remains useful for identifying broad price trends across vendors. We assume that the missing data is missing at random, which means we assume every vendor has an almost equal chance of having missing data. Therefore, as a result, the analysis should still offer meaningful insights. However, it is important to acknowledge that the missingness has an impact.
 
+
+
 ## Sources of bias  {#sec-third-point}
 
-The data set spans from February 28, 2024, to the latest available load, which may not represent pricing trends over a long enough period to make definitive conclusions. For example, if a vendor undergoes a significant financial restructuring this year, this might influence how they adjust their pricing strategy. Therefore, the data set may only reflect prices at a specific point in time, limiting the ability to identify broader trends or seasonal price fluctuations.
+The dataset spans from February 28, 2024, to the latest available load, which may not represent pricing trends over a long enough period to make definitive conclusions. For example, if a vendor undergoes a significant financial restructuring this year, this might influence how they adjust their pricing strategy. Therefore, the data set may only reflect prices at a specific point in time, limiting the ability to identify broader trends or seasonal price fluctuations.
 Vendor: The dataset consists of prices from only eight specific vendors: Voila, T&T, Loblaws, No Frills, Metro, Galleria, Walmart, and Save-On-Foods. In a competitive market, these vendors may have different pricing strategies, which could directly impact our findings. For example, vendors like Walmart may offer lower prices due to their larger customer base, while stores like Voila may price their products higher due to quality perceptions and product selection. These inherent differences between vendors may introduce a bias, meaning that the observed price discrepancies could be driven more by each vendor's market position than by actual price differences for bread.
 Missing Data: As discussed in the Missing Data subsection, missing data for certain variables could also introduce bias. We are assuming that the missing data is randomly distributed, but if that is not the case, the missing data could skew the results. For example, if missing data disproportionately affects certain bread types at specific vendors (such as a store with a location where consumers tend to prefer one specific type of bread), this could lead to misleading conclusions. Missing data could also affect our ability to make comparisons between vendors, especially if missing values are not randomly distributed.
-Time Period: The dataset spans from February 28, 2024, to the latest available load, which may not represent pricing trends over a long enough period to make definitive conclusions. For example, if a vendor undergoes a significant financial restructuring thi
+Time Period: The dataset spans from February 28, 2024, to the latest available load, which may not represent pricing trends over a long enough period to make definitive conclusions. For example, if a vendor undergoes a significant financial restructuring this year, this might influence how they adjust their pricing strategy. Therefore, the dataset may only reflect prices at a specific point in time, limiting the ability to identify broader trends or seasonal price fluctuations.
+
 
 
 \newpage
