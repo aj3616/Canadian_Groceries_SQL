@@ -202,6 +202,17 @@ vendor_summary_table
 
 # Results {#sec-results}
 
+```{r}
+brand_price <- read_csv("~/Canadian_Groceries_SQL/data/02-analysis_data/temp.vendor_summary.csv")
+
+ggplot(brand_price, aes(x = vendor, y = overall_avg_price, fill = vendor)) +
+  geom_bar(stat = "identity") +
+  geom_text(aes(label = round(overall_avg_price, 2)), vjust = -0.5) +  
+  labs(title = "Vendor vs. Average Price for Bread", x = "Vendor", y = "Average Price for Bread") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+  scale_fill_brewer(palette = "Set3") 
+```
 
 >>>>>>> c826bdf8416da385354b87df79d4b8b68993d41f
 # Discussion
