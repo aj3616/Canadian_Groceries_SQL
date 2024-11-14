@@ -39,7 +39,7 @@ Our results indicate a noticeable range in average bread prices across vendors. 
 
 Understanding these variations in bread prices matters for consumers and policymakers alike. For consumers, awareness of price disparities between vendors can guide more cost-effective shopping decisions. For policymakers, identifying patterns in food pricing could support initiatives aimed at improving food affordability and accessibility. By shedding light on vendor-based pricing differences, this study contributes to broader discussions on food cost dynamics and potential areas for consumer advocacy.
 
-The remainder of this paper is structured as follows. @sec-data discusses the data used for this analysis, including key variables and sources, with particular attention to the quality metrics that affect polling accuracy. @sec-results contains the graphs and tables of our findings. Finally, our @sec-results discusses the implications of our findings and suggests directions for future research by addressing three critical aspects: correlation vs. causation, missing data, and sources of bias.
+The remainder of this paper is structured as follows. @sec-data discusses the data used for this analysis, including key variables and sources, with particular attention to the quality metrics that affect polling accuracy. @sec-results contains the graphs and tables of our findings. Finally, our @sec-discuss discusses the implications of our findings and suggests directions for future research by addressing three critical aspects: correlation vs. causation, missing data, and sources of bias.
 
 
 # Data {#sec-data}
