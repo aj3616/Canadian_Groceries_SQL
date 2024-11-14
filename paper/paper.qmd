@@ -19,6 +19,7 @@ bibliography: references.bib
 #| message: false
 
 library(tidyverse)
+library(gt)
 ```
 
 
@@ -157,17 +158,38 @@ first_model <-
 ```{r}
 #| echo: false
 #| eval: true
-#| label: tbl-modelresults
-#| tbl-cap: "Explanatory models of flight time based on wing width and wing length"
+#| label: tbl-vendor_summary
+#| tbl-cap: "Vendor Summary-Overall Average Price and Unit Price by Vendor"
 #| warning: false
 
-modelsummary::modelsummary(
-  list(
-    "First model" = first_model
-  ),
-  statistic = "mad",
-  fmt = 2
-)
+
+
+# Load the data
+vendor_summary <- read_csv("data/02-analysis_data/temp.vendor_summary.csv")
+
+# Create a formatted table
+vendor_summary_table <- vendor_summary %>%
+  gt() %>%
+  cols_label(
+    vendor = "Vendor",
+    overall_avg_price = "Average Price ($)",
+    overall_avg_unit_price = "Average Unit Price ($)"
+  ) %>%
+  fmt_number(
+    columns = c(overall_avg_price, overall_avg_unit_price),
+    decimals = 2
+  ) %>%
+  tab_style(
+    style = cell_text(weight = "bold"),
+    locations = cells_column_labels(columns = everything())
+  ) %>%
+  tab_source_note(
+    source_note = "Data source: data/02-analysis_data/temp.vendor_summary.csv"
+  )
+
+# Print the table
+vendor_summary_table
+
 ```
 
 
