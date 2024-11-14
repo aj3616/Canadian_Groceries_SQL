@@ -81,15 +81,15 @@ ggplot(Brand_price, aes(x = vendor, y = overall_avg_price, fill = vendor)) +
 # Discussion {#sec-discuss}
 
 
-## First discussion point {#sec-first-point}
+## Correlation vs. Causation {#sec-first-point}
 
 If my paper were 10 pages, then should be be at least 2.5 pages. The discussion is a chance to show off what you know and what you learnt from all this. 
 
-## Second discussion point
+## Missing data  {#sec-second-point}
 
 Please don't use these as sub-heading labels - change them to be what your point actually is.
 
-## Third discussion point
+## Sources of bias  {#sec-third-point}
 
 ## Weaknesses and next steps
 
