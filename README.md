@@ -2,13 +2,13 @@
 
 ## Overview
 
-This repository provides a foundation for analyzing Canadian grocery pricing and vendor data. The project focuses on understanding vendor pricing patterns and brand representation across various grocery products in Canada. A key focus of the analysis is identifying whether there is a vendor that consistently offers the cheapest essential product: bread. Students can adapt and expand this structure for their own data analysis projects.
+This repository provides a foundation for analyzing Canadian grocery pricing and vendor data. The project focuses on understanding vendor pricing patterns and brand representation across various grocery products in Canada. A key focus of the analysis is identifying whether there is a vendor that consistently offers the cheapest essential product: bread. All randomization was using seed = 56.
 
 ## File Structure
 
 The repository is structured as follows:
 
--   `data/raw_data` contains the raw data, including vendor and pricing information in csv. Data was cleaned using D Browser for sqlite , however, the sqlite file was too large to be uploaded, so two csv files contained the same data was uploaded
+-   `data/raw_data` Data was cleaned using D Browser for sqlite , however, the sqlite file was too large to be uploaded, the data can be found at https://jacobfilipp.com/hammer/.
 -   `data/analysis_data` contains cleaned datasets prepared for analysis.
 -   `other` contains additional materials such as relevant literature, exploratory notes, and sketches.
 -   `paper` contains files for generating the final report, including Quarto documents, reference bibliographies, and PDFs of the analysis paper.
