@@ -1,52 +1,50 @@
 #### Preamble ####
-# Purpose: Simulates a dataset of Australian electoral divisions, including the 
-  #state and party that won each division.
-# Author: Rohan Alexander
-# Date: 26 September 2024
-# Contact: rohan.alexander@utoronto.ca
+# Purpose: Simulates a dataset of grocery product information, including vendors, brands, and pricing.
+# Author: [Your Name]
+# Date: [Today's Date]
+# Contact: [Your Contact Information]
 # License: MIT
 # Pre-requisites: The `tidyverse` package must be installed
 # Any other information needed? Make sure you are in the `starter_folder` rproj
 
-
 #### Workspace setup ####
 library(tidyverse)
-set.seed(853)
-
+set.seed(56)
 
 #### Simulate data ####
-# State names
-states <- c(
-  "New South Wales",
-  "Victoria",
-  "Queensland",
-  "South Australia",
-  "Western Australia",
-  "Tasmania",
-  "Northern Territory",
-  "Australian Capital Territory"
-)
+# Vendor names
+vendors <- c("Galleria", "Loblaws", "Metro", "NoFrills", "SaveOnFoods", "TandT", "Voila", "Walmart")
 
-# Political parties
-parties <- c("Labor", "Liberal", "Greens", "National", "Other")
+# Brand names
+brands <- c("Dempster's", "Wonder", "Country Harvest", "Villaggio", "Sunbeam", "Stonemill", "Sara Lee", "Silver Hills")
 
-# Create a dataset by randomly assigning states and parties to divisions
-analysis_data <- tibble(
-  division = paste("Division", 1:151),  # Add "Division" to make it a character
-  state = sample(
-    states,
-    size = 151,
+# Product names
+products <- c("Whole Wheat Bread", "Multigrain Bread", "White Bread", "Sourdough Bread")
+
+# Generate random product data
+grocery_data <- tibble(
+  product_id = 1:100,  # Unique product IDs
+  vendor = sample(
+    vendors,
+    size = 100,
     replace = TRUE,
-    prob = c(0.25, 0.25, 0.15, 0.1, 0.1, 0.1, 0.025, 0.025) # Rough state population distribution
+    prob = c(0.15, 0.15, 0.15, 0.15, 0.1, 0.1, 0.1, 0.1) # Vendor distribution
   ),
-  party = sample(
-    parties,
-    size = 151,
+  brand = sample(
+    brands,
+    size = 100,
     replace = TRUE,
-    prob = c(0.40, 0.40, 0.05, 0.1, 0.05) # Rough party distribution
-  )
+    prob = c(0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 0.125) # Equal brand distribution
+  ),
+  product_name = sample(
+    products,
+    size = 100,
+    replace = TRUE
+  ),
+  current_price = round(runif(100, 1.50, 5.00), 2),  # Prices between $1.50 and $5.00
+  old_price = round(runif(100, 1.50, 6.00), 2),  # Prices between $1.50 and $6.00
+  price_per_unit = round(current_price / runif(100, 1, 2), 2)  # Price per unit
 )
-
 
 #### Save data ####
-write_csv(analysis_data, "data/00-simulated_data/simulated_data.csv")
+write_csv(grocery_data, "data/00-simulated_data/simulated_grocery_data.csv")
