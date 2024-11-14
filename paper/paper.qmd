@@ -46,7 +46,7 @@ The remainder of this paper is structured as follows. @sec-data discusses the da
 
 ## Overview
 
-We use the programming language R [@citeR] to analyze and visualize our data, which allows us to make clear graphs and summaries. Our data comes from a recent study on grocery prices in Canada [@filipp2024hammer], providing detailed information about bread prices at different stores. Following the approach in Telling Stories with Data [@tellingstories], we look at price patterns by store and consider what they mean for shoppers and decision-makers.
+We use the programming language R [@citeR] to analyze and visualize our data, which allows us to make clear graphs and summaries. Our data comes from a recent study on grocery prices in Canada [@filipp2024hammer], providing detailed information about bread prices at different stores. Following the approach in Telling Stories with Data [@tellingstories], we look at price patterns by store and consider what they mean for shoppers and decision-makers. We also use R packages to support our analysis and visualization tasks. The tidyverse package [@tidyverse] provided a suite of tools for data manipulation, and ggplot2 [@ggplot2] enabled us to create visualizations. For generating tables, we used gt [@gt]. The readr package [@readr] facilitated efficient data import, while here [@here] helped manage file paths for a reproducible workflow.
 
 ## Measurement
 	
